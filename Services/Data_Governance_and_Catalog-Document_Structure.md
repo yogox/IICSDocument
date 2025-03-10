@@ -1,0 +1,461 @@
+# Informatica Cloud Data Governance and Catalog - Document Structure
+
+## Introduction and Getting Started
+- Introduction
+  - Business activities
+  - Asset types
+- Getting Started
+  - Prerequisites
+  - Log In
+  - Home page
+  - Importing assets
+    - Import technical assets
+    - Import business assets
+  - Notifications
+    - Editing your user settings
+- Informatica resources
+  - Informatica Intelligent Cloud Services web site
+  - Informatica Intelligent Cloud Services Communities
+  - Informatica Intelligent Cloud Services Marketplace
+  - Informatica Intelligent Cloud Services Trust Center
+  - Informatica Product Availability Matrices
+  - Informatica Documentation
+  - Informatica Knowledge Base
+  - Informatica Global Customer Support
+
+## Asset Discovery
+- Search and browse assets
+  - Asset types
+  - Search for assets
+    - Construction of search queries
+    - Synonyms used in search queries
+    - Search query examples
+    - Reserved words
+  - Browse for assets
+  - Saved search
+    - Saving a search
+    - Creating a dashboard widget for a saved search
+    - Viewing your saved searches
+    - Sharing your saved searches
+    - Deleting your saved searches
+  - Export assets
+    - Prerequisites
+    - Exporting assets from search results
+    - Exporting assets from catalog source
+- Dashboards and widgets
+  - Creating and cloning dashboards
+  - Managing dashboards
+  - Working with dashboards
+  - Sharing dashboards
+  - Adding and modifying widgets on a dashboard
+  - Widget properties
+    - CLAIRE Activity widget
+    - Data Observability widget
+    - Data Quality widget
+    - Job monitoring widget
+    - Notice board widget
+    - Search-based widget
+    - Tickets widget
+  - Arranging widgets on the dashboard
+  - Cloning or deleting widgets
+  - Viewing widget information
+  - Summary of CLAIRE activities
+- Relationships
+  - View relationships in assets
+    - Additional navigation options for relationships
+  - Relationship types in assets
+    - Contextual relationships
+    - Directional relationships
+    - Types of direct relationships
+    - Parent-child relationships
+  - Creating relationships between assets
+    - Add relationships between data classifications and policy assets
+    - Add relationships between data classifications with glossary assets
+  - Delete a relationship between assets
+- Data lineage
+  - Lineage types
+  - Lineage interface
+  - View data lineage
+  - Linked Lineage
+    - Curate catalog source links
+    - View linked lineage
+- Audit history of assets
+  - Viewing audit history of assets
+    - View hierarchy of assets
+  - Exporting the audit history of an asset
+  - Exporting the audit history of multiple assets
+- Monitor Jobs
+  - Viewing import job status
+  - Viewing export job status
+
+## Understanding Business Assets
+- Business assets
+- Business asset types
+  - AI Model
+  - Business Area
+  - Data Quality Rule Template
+  - Data Quality Rule Occurrence
+  - Data Set
+  - Geography
+  - Glossary Domain
+  - Glossary Subdomain
+  - Glossary Business Term
+  - Glossary Metric
+  - Legal Entity
+  - Manual data element
+  - Policy
+  - Process
+  - Project
+  - Regulation
+  - System
+  - Types of direct relationships
+
+## Understanding Technical Assets
+- Technical assets
+  - View technical assets
+  - Data profiling statistics
+  - Glossary association
+    - Curate glossaries for technical assets
+  - Data classifications
+    - Types of data classifications
+    - View data classifications for technical assets
+    - Curate data classifications for technical assets
+    - Data sensitivity levels for assets
+- Technical asset types
+  - Amazon Athena
+  - Amazon Redshift
+  - Amazon S3
+  - AWS Glue
+  - Apache Atlas
+  - Apache Hive
+  - Apache HiveQL Script
+  - dbt
+  - Databricks Delta Lake
+  - Databricks
+  - erwin Data Modeler File
+  - erwin Mart Server
+  - IDERA ER/Studio Data Architect
+  - File System
+  - Google BigQuery
+  - Google BigQuery SQL Script
+  - Google Cloud Storage
+  - Google Looker
+  - Greenplum
+  - Hadoop Distributed File System
+  - IBM Cognos
+  - IBM InfoSphere DataStage
+  - IBM Db2 for LUW
+  - IBM Db2 for LUW Script
+  - IBM Db2 for z/OS
+  - IBM Netezza
+  - Informatica Intelligent Cloud Services
+  - Informatica PowerCenter
+  - JDBC
+  - Kafka
+  - MariaDB
+  - Microsoft Azure Analysis Services
+  - Microsoft Azure Blob Storage
+  - Microsoft Azure Data Factory
+  - Microsoft Azure Data Lake Storage Gen2
+  - Microsoft Azure SQL Server
+  - Microsoft Azure Synapse
+  - Microsoft Azure Synapse script
+  - Microsoft Azure SQL Server Script
+  - Microsoft Fabric Data Warehouse
+  - Microsoft Fabric Lakehouse
+  - Microsoft Fabric OneLake
+  - Microsoft OneDrive
+  - Microsoft Power BI
+  - Microsoft SQL Server
+  - Microsoft SQL Server Analysis Services
+  - Microsoft SQL Server Analysis Services Multidimensional
+  - Microsoft SQL Server Integration Services
+  - Microsoft SQL Server Reporting Services
+  - Microsoft SharePoint online
+  - Microsoft SQL Server Script
+  - MicroStrategy
+  - MySQL
+  - Oracle
+  - Oracle Business Intelligence
+  - Oracle Golden Gate
+  - Oracle PL/SQL Script
+  - Oracle Cloud Object Storage
+  - PostgreSQL
+  - Qlik Sense
+  - Qlik Sense Cloud
+  - QlikView
+  - SAP BW/4HANA
+  - SAP BusinessObjects
+  - SAP Business Warehouse
+  - SAP ERP
+  - SAP HANA
+  - SAP S/4HANA Cloud
+  - SAP PowerDesigner
+  - Salesforce
+  - SFTP File System
+  - Snowflake
+  - Snowflake SQL Script
+  - Tableau
+  - TIBCO Spotfire
+  - Talend Data Integration
+  - Teradata BTEQ Script
+  - Teradata FastExport Script
+  - Teradata FastLoad Script
+  - Teradata MultiLoad Script
+  - Teradata Database
+
+## Asset Management
+- Overview
+- Manage access to assets
+  - Key concepts
+    - Roles, users, and user groups
+    - Access policies
+    - Asset groups
+  - Asset privileges in Administrator
+  - Feature privileges in Administrator
+  - Predefined user roles
+    - Data Access Owner role
+    - Governance Administrator role
+    - Governance Owner role
+    - Governance User role
+  - Predefined access policies
+  - Use cases
+    - Use case: Control access to unpublished glossary changes
+    - Use Case: Cross-unit glossary collaboration
+- Manage assets and add metadata
+  - Business assets
+    - Creating assets and assigning stakeholders
+    - Working with reference IDs for business assets
+    - Manual data element
+    - Creating a manual data element
+  - Technical assets
+    - Creating data sets from technical assets
+    - Creating system assets from technical assets
+  - Modifying assets
+  - Obsolete assets
+    - Changing between Published and Obsolete lifecycle status
+  - Deleting assets
+- Enrich technical assets
+  - Curate glossaries for technical assets
+  - Associate business names and descriptions with technical assets
+  - Curate data classifications for technical assets
+  - Working with generated classifications
+    - Promoting a generated classification
+    - Rejecting a generated classification
+    - Demoting a generated classification
+    - Example of promoting, demoting and rejecting a generated classification
+  - Custom attributes for assets
+- Collaboration
+  - Rating an asset
+    - Rating an asset for the first time
+    - Editing the rating of an asset
+  - Certifying an asset
+  - Decertifying an asset
+  - Commenting on an asset
+- Workflows and tickets
+  - What is a workflow?
+    - Workflow status
+  - Prerequisites for workflows
+    - Minimum privileges to start workflows in Data Governance and Catalog
+    - Minimum privileges required for stakeholders to work with workflow tickets
+    - Minimum privileges for users to cancel open workflow tickets in Data Governance and Catalog
+  - What is a ticket?
+    - Creating a ticket
+  - Manage tickets
+    - Commenting and tagging on a ticket
+    - Resolving a ticket
+    - Canceling a ticket
+  - Participate in workflows
+    - Starting a workflow
+    - Participating in an ongoing workflow
+    - Participating in an ongoing ticket
+  - View workflow tickets
+  - View tickets without workflows
+  - Your workflow inbox
+  - Viewing audit history of tickets
+- Customization
+  - Custom layout for asset pages
+  - Custom layout for preview panes
+  - Customize grid layout for asset pages
+
+## Data Access Management
+- The Data Access Management page
+  - Data access policy process
+  - How data access policies and rules protect your data
+  - Data access policy enforcement methods
+    - Data Types
+- Data access policies
+  - Data access policy selection
+  - Guidelines for sequencing data access policies for application
+  - Data access control policy prerequisites
+  - Data access control policy permission mappings
+  - Creating data access policies
+    - Adding a condition to a data access policy
+  - Creating data access control rules
+    - Assigning permissions to source systems
+  - Data filter policy behavior
+  - Creating data filter rules
+    - Creating filters for data filter rules
+  - Default data de-identifications
+  - Creating data de-identification rules
+- Precedence tiers
+  - Creating precedence tiers
+- Data protections
+  - Creating data protections
+    - Creating default data protections
+  - De-identification techniques
+    - Constant value
+    - Generalize date
+    - Hashing
+    - Redact with null
+    - Retain
+    - Substitute value
+    - Tokenize
+    - Truncate
+- Data access asset lifecycle
+  - Publishing a data access asset
+- Audit events
+  - Data access asset history
+  - Writing audit events to disk
+- Regular expression syntax reference
+  - Unicode character support
+  - Any character
+  - Character ranges
+  - Complement operators
+  - Concatenation
+  - Escape syntax
+  - Intersections
+  - Literals
+  - Numeric ranges
+  - Optional elements
+  - Repeated elements
+  - Unions
+
+## Data Quality for Assets
+- Data quality scores
+- Run data quality rules on assets
+  - Prerequisites for running data quality rules
+  - Supported assets for automated data quality rules
+  - Defining data quality rules for business assets
+  - Defining data quality rules for data elements
+  - Guidelines for entering rule descriptions
+    - NLP texts to consider
+    - NLP texts to avoid
+  - Run an automated data quality rule
+  - Data quality rule automation process
+  - Run a data quality rule manually
+- View data quality scores in assets
+  - Preview pane of an asset
+  - Overview tab of an asset
+  - Data Quality tab of an asset
+  - Lineage tab of an asset
+  - Rule Occurrences tab of a data quality rule template
+  - Score tab of a data quality rule occurrence
+  - Data Quality widget
+- View notifications for data quality scores
+- Interpret data quality scores
+  - Composite score for an asset
+    - How composite scores are calculated
+  - Acceptance score for an asset
+  - Individual score for a data element
+  - Score trend for a data element
+- Data observability
+  - View anomaly events
+  - Event operations
+
+## Informatica QuickLook Browser Extension
+- About Informatica QuickLook
+  - Supported asset types
+  - Supported files
+- Set up Informatica QuickLook
+  - Install the browser extension
+    - Install the browser extension on Google Chrome
+    - Install the browser extension on Microsoft Edge
+  - Configure the browser extension
+  - Log in to the browser extension
+  - Configure keyboard shortcuts
+- Search and view assets in Informatica QuickLook
+  - Search using keywords
+  - Search in the context of a web page
+  - Detect assets from PowerBI
+
+## Bulk Import Assets
+- Overview
+  - Prerequisites
+- Template file properties
+  - AI Model
+  - Business Area
+  - Data Quality Rule Occurrence
+  - Data Quality Rule Template
+  - Data Set
+  - Geography
+  - Glossary Business Term
+  - Glossary Domain
+  - Glossary Subdomain
+  - Glossary Metric
+  - Legal Entity
+  - Manual Data Element
+  - Policy
+  - Process
+  - Project
+  - Regulation
+  - System
+  - Stakeholders
+  - Relationships
+- Bulk import process
+  - Import assets using template files
+    - Step 1: Get template file
+    - Step 2: Populate template file
+    - Step 3: Import the file
+    - Step 4: Prepare to import the assets
+    - Step 5: Start import of assets
+  - Re-import assets using search results exported file
+    - Step 1. Exporting the search results in a Microsoft Excel file
+    - Step 2. Modify the exported file
+    - Step 3. Preparing to re-import the exported file
+    - Step 4. Re-importing the exported file
+  - Viewing import job status
+- Troubleshooting bulk import of assets
+
+## API Reference
+- Introduction
+  - Authentication
+  - Send Requests
+  - Response Codes
+  - Download Sample API Collections
+- Search for assets
+  - List assets in the catalog
+    - Request parameters
+    - Request body
+    - Example requests
+    - Response body
+  - Get details of an asset
+    - Request parameters
+    - Examples
+    - Response body
+  - List details of multiple assets
+    - Request parameters
+    - Request body
+    - Example request
+- Export assets
+  - Export assets using search queries
+    - Request parameters
+    - Request body
+    - Example requests
+  - Export assets using asset IDs
+    - Request parameters
+    - Request body
+    - Example request
+  - Response body
+- Import assets
+  - Request body
+  - Example request
+  - Response body
+- Upload data quality scores
+  - Request Body
+  - Example request
+- Run a catalog source job
+- Monitor jobs
+- API Rate Limits
+- Appendix
+  - Search query examples
