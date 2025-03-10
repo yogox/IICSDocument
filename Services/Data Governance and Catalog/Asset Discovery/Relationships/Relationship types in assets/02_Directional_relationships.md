@@ -1,5 +1,3 @@
-I'll convert this HTML into Markdown for you, following your requirements.
-
 # Directional relationships
 
 You can create the following types of directional relationships.
