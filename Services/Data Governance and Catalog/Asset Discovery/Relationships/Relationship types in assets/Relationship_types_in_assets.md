@@ -1,0 +1,1 @@
+You can connect and view assets in Data Governance and Catalog to indicate various types of relationships between the assets. When you connect assets, you enrich the value of the assets so that they can be used for governance or catalog purposes.
