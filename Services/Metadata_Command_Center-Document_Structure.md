@@ -1,0 +1,282 @@
+- Introduction and Getting Started
+  - Welcome to Metadata Command Center
+    - Using the metadata repository
+    - Audience
+    - Prerequisites
+      - Configure runtime environments
+      - Configure the firewall
+      - Understand access policies, roles, users, and user groups
+
+  - Accessing Metadata Command Center
+    - Log in
+    - Home page
+    - Explore
+    - Import predefined content
+
+  - Manage access to assets
+    - Key concepts
+      - Roles, users, and user groups
+      - Access policies
+      - Asset groups
+    - Asset privileges in Administrator
+    - Feature privileges in Administrator
+    - Predefined user roles
+      - Data Access Owner role
+      - Governance Administrator role
+      - Governance Owner role
+      - Governance User role
+    - Predefined access policies
+    - Use cases
+      - Use case: Control access to unpublished glossary changes
+      - Use Case: Cross-unit glossary collaboration
+
+  - Notifications
+    - Editing your user settings
+
+  - Informatica resources
+    - Informatica Intelligent Cloud Services web site
+    - Informatica Intelligent Cloud Services Communities
+    - Informatica Intelligent Cloud Services Marketplace
+    - Informatica Intelligent Cloud Services Trust Center
+    - Informatica Product Availability Matrices
+    - Informatica Documentation
+    - Informatica Knowledge Base
+    - Informatica Global Customer Support
+
+- Administration
+  - Metadata access control
+    - Roles
+    - Manage stakeholder roles
+      - Creating a stakeholder role
+      - Editing a stakeholder role
+      - Disabling a stakeholder role
+    - Attribute groups
+    - Asset groups
+    - Manage asset groups
+      - Creating and publishing an asset group
+      - Editing an asset group
+    - Access policies
+    - Manage access policies
+      - Creating and publishing an access policy
+      - Editing an access policy
+      - Disabling a metadata access policy
+      - Cloning an access policy
+
+  - Data profiling
+    - Data profiling configuration options
+    - Monitor data profiling tasks
+    - Troubleshooting data profiling tasks
+
+  - Data quality
+    - Data quality configuration options
+    - Monitor data quality tasks
+
+  - Data observability
+    - Guidelines for configuring data observability
+    - Configuring data observability events
+
+  - Data classification
+    - Types of data classification
+    - Creating a data element classification
+      - Data element classification inclusion rule
+      - Defining a constant for a data element classification rule
+      - Example: Classify a column in a table as CUSIP numbers
+      - Example: Frequent values in data classification
+    - Creating a data entity classification
+    - Updating a data classification
+    - Updating sensitivity level of multiple data element classifications
+    - Cloning a data classification
+    - Deleting a data classification
+    - Lookup tables
+      - Importing and publishing a lookup table
+      - Example: Use a lookup table in a data classification expression
+      - Editing a lookup table
+
+  - Relationship discovery
+    - Relationship inference model
+      - Import a relationship inference model
+
+  - Glossary association
+    - Configuration settings
+
+  - Connections
+    - Connection assignment overview
+    - Assigning connections
+    - Unassigning connections
+    - Types of connection scans
+
+  - Link catalog sources to generate lineage
+    - Prerequisites to link catalog sources
+    - Linking catalog sources
+      - Step 1. Register general information
+      - Step 2. Configure source and target catalog sources
+      - Step 3. Perform rule-based or automated linking, save, and run the configuration
+    - Manage configurations
+      - Delete or purge a configuration
+      - Clone a configuration
+    - Monitor lineage generation jobs
+
+  - Asset customization
+    - Manage attributes
+      - Creating attributes
+      - Modifying attributes
+      - Configuring dropdown values
+      - View asset types for attributes
+      - Configuring asset types for attributes
+      - Deleting attributes
+    - Customize relationship types
+      - Modifying relationship types
+
+  - Custom layouts for asset views
+    - Custom layout for asset pages
+      - Creating a custom layout for an asset page
+      - Modifying, cloning and deleting a custom layout for an asset page
+    - Custom layout for preview panes
+      - Creating a custom layout for a preview pane
+      - Modifying, cloning and deleting a custom layout for a preview pane
+    - Setting the default layout for an asset type
+
+  - Prefix values for asset reference IDs
+    - Configuring a prefix value
+    - Rules for creating prefixes
+
+  - Configure workflows
+    - Privileges for workflows
+      - Minimum privileges to copy the Data Governance and Catalog Workflow Bundle and to create processes with human tasks
+      - Minimum privileges to select and view processes in Metadata Command Center
+      - Minimum privileges to start workflows in Data Governance and Catalog
+      - Minimum privileges required for stakeholders to work with workflow tickets
+      - Minimum privileges for users to cancel open workflow tickets in Data Governance and Catalog
+    - Predefined processes
+      - Downloading and publishing predefined processes
+    - Designing human tasks in Application Integration
+      - Creating human tasks
+    - Designing processes in Application Integration
+      - Creating a new process
+      - Setting process properties
+      - Adding process steps
+      - Validating a process
+      - Saving and publishing a process
+      - Updating a published process
+    - Configuring a workflow
+      - Task outcome
+    - Guidelines and best practices
+
+  - IDMC metadata
+    - Synchronized metadata
+    - Prerequisites
+    - Configuring IDMC metadata
+      - Configure run-time metadata synchronization intervals
+    - Disabling IDMC metadata
+    - Monitor IDMC metadata jobs
+    - Connect to reference source systems
+    - Updating synchronized metadata in the catalog
+    - Viewing assets
+      - View lineage for mappings
+
+  - Jobs
+    - Monitor jobs for technical assets
+    - Monitor the bulk import of business assets
+    - Monitor data access synchronization jobs
+
+  - Upgrade organization to the latest version
+
+  - Informatica Resources
+    - Informatica Intelligent Cloud Services web site
+    - Informatica Intelligent Cloud Services Communities
+    - Informatica Intelligent Cloud Services Trust Center
+    - Informatica Product Availability Matrices
+    - Informatica Documentation
+    - Informatica Knowledge Base
+    - Informatica Global Customer Support
+
+- Catalog Source Configuration
+  - Manage catalog sources
+  - Source systems
+  - Amazon Athena
+  - Amazon Redshift
+  - Amazon S3
+  - Apache Atlas
+  - Apache Hive
+  - Apache HiveQL Script
+  - AWS Glue
+  - Databricks
+  - Databricks Delta Lake - Dropped Support
+  - dbt
+  - erwin Data Modeler File
+  - erwin Mart Server
+  - File System
+  - Google BigQuery
+  - Google BigQuery SQL Script
+  - Google Cloud Storage
+  - Google Looker
+  - Greenplum
+  - Hadoop Distributed File System
+  - IBM Cognos
+  - IBM Db2 for LUW
+  - IBM Db2 for LUW Script
+  - IBM Db2 for z/OS
+  - IBM InfoSphere DataStage
+  - IBM Netezza
+  - IDERA ER/Studio Data Architect
+  - Informatica Intelligent Cloud Services
+  - Informatica PowerCenter
+  - JDBC
+  - Kafka
+  - MariaDB
+  - Microsoft Azure Analysis Services
+  - Microsoft Azure Blob Storage
+  - Microsoft Azure Data Factory
+  - Microsoft Azure Synapse Script
+  - Microsoft Azure SQL Server Script
+  - Microsoft Azure Data Lake Storage Gen2
+  - Microsoft Azure SQL Server
+  - Microsoft Azure Synapse
+  - Microsoft Fabric Data Warehouse
+  - Microsoft Fabric Data Lakehouse
+  - Microsoft Fabric OneLake
+  - Microsoft OneDrive
+  - Microsoft Power BI
+  - Microsoft Purview
+  - Microsoft SharePoint Online
+  - Microsoft SQL Server
+  - Microsoft SQL Server Analysis Services
+  - Microsoft SQL Server Integration Services
+  - Microsoft SQL Server Reporting Services
+  - Microsoft SQL Server Script
+  - MicroStrategy
+  - MySQL
+  - Oracle
+  - Oracle Business Intelligence
+  - Oracle Cloud Object Storage
+  - Oracle Data Integrator
+  - Oracle Cloud Infrastructure GoldenGate
+  - Oracle PL/SQL Script
+  - PostgreSQL
+  - Qlik Sense
+  - Qlik Sense Cloud
+  - QlikView
+  - Salesforce
+  - SAP Analytics Cloud - Preview catalog source
+  - SAP BusinessObjects
+  - SAP Business Warehouse (SAP BW)
+  - SAP BW/4HANA
+  - SAP Datasphere - Preview catalog source
+  - SAP ERP
+  - SAP HANA Database
+  - SAP PowerDesigner
+  - SAP S/4HANA Cloud - Preview catalog source
+  - SAS Base Libraries (Accelerator)
+  - SAS Base Programs (Accelerator)
+  - SFTP File System
+  - Snowflake
+  - Snowflake SQL Script
+  - Tableau
+  - Talend Data Integration
+  - Teradata BTEQ Script
+  - Teradata Database
+  - Teradata FastExport Script
+  - Teradata FastLoad Script
+  - Teradata MultiLoad Script
+  - TIBCO Spotfire
+  - Custom metadata integration
