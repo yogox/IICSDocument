@@ -1,0 +1,2 @@
+Assets in Data Governance and Catalog add business and technical metadata to your data elements. By adding the metadata, you can enrich your data with additional context that you can use for catalog and governance purposes.
+With appropriate permissions, you can create, modify, or delete assets. For example, You can create business assets like Policy and Process to capture business functions for documentation purposes. Or, create a technical asset to enrich the data in a database table so that you can understand the lineage of the data.
