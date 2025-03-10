@@ -1,0 +1,1 @@
+A relationship between assets depicts how the assets relate to each another. In Data Governance and Catalog, you can use different types of relationships to connect business assets to each other and to relevant technical assets.
