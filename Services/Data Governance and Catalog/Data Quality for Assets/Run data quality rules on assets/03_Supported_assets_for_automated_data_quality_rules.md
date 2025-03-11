@@ -1,7 +1,3 @@
-I'll convert the provided HTML to Markdown format while following your guidelines:
-
-# Defining data quality rules for business assets
-
 Define a data quality rule to be run on a Glossary asset in Data Governance and Catalog. To define the rule to run on glossary assets, create a data quality rule template, specify the properties of the rule template, and associate the rule template with the glossary asset on which you want to run the rule. The rule that you define is created in the data quality application that is integrated with Data Governance and Catalog. The data quality application runs the rule on the technical assets that are linked to the Glossary asset. After the rule is run, Data Governance and Catalog retrieves and displays the data quality scores of the rule. 
 
 Before you create a data quality rule template, make sure that the Glossary asset is linked to the technical assets on which you want to run the rules. For more information about linking Glossary assets to technical assets, see the Asset Management help.
