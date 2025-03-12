@@ -1,0 +1,936 @@
+## Organization Administration
+- Introducing Administrator
+- Organizations
+  - Setting up an organization
+  - Organization settings
+    - Organization general properties
+    - Authentication properties
+    - Connection properties storage
+    - Fingerprint authentication properties
+    - Data Integration service properties
+    - CLAIRE preferences
+    - Enterprise Data Catalog integration properties
+  - Sub-organizations
+    - Adding a sub-organization
+    - Removing a sub-organization
+    - Disabling or enabling a sub-organization
+    - Switching to a different organization
+    - Denying parent organization access to a sub-organization
+    - Add-on connectors in sub-organizations
+    - Exporting and importing assets in sub-organizations
+    - Sub-organization capability and service support matrix
+  - Additional production organizations and sandbox organizations
+    - Creating an additional organization
+- Metering
+  - Informatica processing unit metrics
+    - Viewing IPU metrics
+    - IPU scalars
+    - IPU meters
+    - IPU usage by asset location
+    - IPU usage for disabled and deleted sub-organizations
+    - IPU metrics reports
+    - Setting up IPU consumption alerts
+  - Feature-based license metrics
+    - Viewing license metrics
+    - Viewing usage details
+    - Metering usage reports
+- General and security settings
+  - Source control configuration
+    - Source control configuration for sub-organizations
+    - Repository access using OAuth
+    - Working with an on-premises repository
+    - Enabling source control for an organization
+    - Changing the source control repository URL
+    - Disabling source control for an organization
+    - Configuring repository access
+  - Source control best practices
+  - Undoing a checkout for another user
+  - Rolling upgrades for Secure Agent services
+    - Rolling upgrade error handling
+  - Restart schedule configuration for Secure Agent services
+  - Custom branding configuration
+    - Logo and favicon guidelines
+    - Configuring custom branding for an organization
+  - Customer managed encryption keys
+    - Creating and enabling a customer managed key
+    - Frequently asked questions about customer managed keys
+  - Secrets manager configuration
+    - Secret names and formats
+    - AWS Secrets Manager connection properties
+    - Azure Key Vault connection properties
+    - HashiCorp Vault connection properties
+    - Enabling and disabling a secrets manager
+    - Configuring a secrets manager for a sub-organization
+    - Configuring a connection to use the secrets manager
+- Permissions
+  - Rules and guidelines for permissions
+  - Configuring permissions
+- Schedules
+  - Configuring a blackout period
+  - Repeat frequency
+  - Time zones and schedules
+  - Daylight Savings Time changes and schedules
+  - Configuring a schedule
+  - Exporting schedules
+  - Troubleshooting scheduled tasks
+- Bundle management
+  - Types of bundles
+  - Installing a bundle
+  - Copying a bundle
+  - Upgrading a bundle
+  - Uninstalling a bundle
+- Event monitoring
+- Troubleshooting security
+- Licenses
+  - License categories
+  - License types
+  - Sub-organization licenses
+    - Editing sub-organization licenses
+    - Synchronizing licenses with the parent organization
+    - Configuring the organization type
+  - License expiration
+
+## User Administration
+- User administration
+- Ecosystem single sign-on
+- SAML single sign-on
+  - SAML single sign-on requirements
+  - Single sign-on restrictions
+  - User management with SAML authentication
+    - Switching from SAML authentication and authorization
+  - User management with SAML authentication and authorization
+    - Switching from SAML authentication only
+    - Pushing user and group information using SCIM 2.0
+  - SAML single sign-on configuration for Informatica Intelligent Cloud Services
+  - Configuring provider settings and mapping attributes
+    - SSO configuration properties
+    - Identity provider configuration properties
+    - Service provider settings
+    - SAML attribute mapping properties
+    - SAML role and group mapping properties
+  - Downloading the service provider metadata
+  - OAuth using JSON web tokens
+- Users
+  - User authentication
+  - Application Integration anonymous user
+  - Model Serve system user
+  - User statistics
+  - User details
+  - Creating a user
+  - Assigning and unassigning services
+  - Disabling a user
+  - Resetting a user
+  - Reassigning a user's scheduled jobs
+  - Deleting a user
+- User groups
+  - User group details
+  - Creating a user group
+  - Renaming a user group
+  - Deleting a user group
+- User roles
+  - Role details
+  - System-defined roles
+    - Cross-service roles
+    - Administrator roles
+    - API Center roles
+    - API Manager roles
+    - API Portal roles
+    - Application Integration and Application Integration Console roles
+    - B2B Gateway roles
+    - B2B Partners Portal roles
+    - Business 360 Console roles
+    - CLAIRE GPT roles
+    - Cloud Data Integration for PowerCenter (CDI-PC) roles
+    - Customer 360 SaaS roles
+    - Data Governance and Catalog roles
+    - Data Ingestion and Replication roles
+    - Data Integration roles
+    - Data Marketplace roles
+    - Data Profiling roles
+    - Data Quality roles
+    - Integration Hub roles
+    - Metadata Command Center roles
+    - Model Serve roles
+    - Monitor roles
+    - Operational Insights roles
+    - Product 360 SaaS roles
+    - Reference 360 roles
+    - Supplier 360 SaaS roles
+  - Custom roles
+    - Creating a custom role
+    - Renaming a role
+    - Deleting a role
+  - Role asset and feature privileges
+    - Administrator asset and feature privileges
+    - Application Integration feature privileges
+    - Data Governance and Catalog feature privileges
+    - Data Ingestion and Replication minimum asset and feature privileges
+    - Data Integration asset and feature privileges
+    - Data Marketplace feature privileges
+    - Data Profiling feature privileges
+    - Data Quality feature privileges
+    - Domain Management Service asset and feature privileges
+    - Human Task asset and feature privileges
+    - Metadata Command Center feature privileges
+    - Model Serve asset and feature privileges
+    - Monitor feature privileges
+    - Operational Insights feature privilges
+    - Workbench Service asset and feature privileges
+- User configuration examples
+- Editing your user profile
+- Editing your user settings
+- Inviting users to join your organization
+- Notifications
+
+## Runtime Environments
+- Runtime environments
+- Hosted Agent
+- Secure Agent groups
+  - Secure Agent groups with multiple agents
+  - Service and connector assignment for Secure Agent groups
+    - Service assignment guidelines
+    - Enabling or disabling services and connectors for a Secure Agent group
+    - Service and connector assignment example
+  - Shared Secure Agent groups
+    - Flat file connections in shared Secure Agent groups
+  - Working with Secure Agent groups
+    - Adding a Secure Agent to a group
+    - Adding a new Secure Agent to an existing group
+    - Removing a Secure Agent from a group
+  - Viewing Secure Agent group dependencies
+- Serverless runtime environments
+  - Serverless runtime environment setup on AWS
+    - Configure your environment
+    - VPC configuration tasks
+    - Configure the serverlessUserAgentConfig.yml file
+    - Proxy servers in a serverless runtime environment
+    - Serverless runtime environment in Administrator
+    - Serverless runtime validation
+    - Serverless runtime environment management
+  - Serverless runtime environment setup on Microsoft Azure
+    - Step 1. Verify your user consent settings
+    - Step 2. Configure the subnet
+    - Step 3. Create an Informatica organization
+    - Step 4. Create a serverless runtime environment
+    - Manage the serverless runtime environment
+    - Configure VNet for databases or endpoints outside of Azure
+    - Run command tasks
+- Connectors in a serverless runtime environment
+- Secure Agents
+  - Working with Secure Agents
+  - Stopping and restarting the Secure Agent on Windows
+  - Stopping and restarting the Secure Agent on Linux
+  - Stopping and starting services on a Secure Agent
+    - Guidelines for stopping and starting Secure Agent services
+    - Stopping a Secure Agent service
+    - Starting a Secure Agent service
+  - Configuring agent blackout periods
+    - Overriding the blackout file name and directory
+    - Blackout file structure
+  - Renaming a Secure Agent
+  - Deleting a Secure Agent
+  - Upgrading a Secure Agent
+  - Migrating a Secure Agent
+  - Secure Agent Manager
+  - Secure Agent logs
+  - Troubleshooting a Secure Agent
+- Secure Agent installation
+  - Installing in AWS
+  - Installing in Google Cloud
+    - Troubleshooting connection issues on Google Cloud
+  - Installing in Microsoft Azure
+  - Installing in Windows
+    - Secure Agent requirements on Windows
+    - Downloading and installing the Secure Agent on Windows
+    - Configuring the proxy settings in Windows
+    - Configuring a login for a Windows Secure Agent service
+    - Uninstalling the Secure Agent in Windows
+  - Installing in Linux
+    - Secure Agent requirements on Linux
+    - Downloading and installing the Secure Agent on Linux
+    - Configuring the proxy settings in Linux
+    - Uninstalling the Secure Agent in Linux
+    - Configuring a proxy server for the Secure Agent
+  - Troubleshooting a Secure Agent installation
+
+## Secure Agent Services
+- Secure Agent services
+  - Setting custom environment variables
+- API Microgateway Service
+  - Editing the API Microgateway Service properties
+  - Enabling the API Microgateway Service in a Secure Agent or a Secure Agent group
+- CMI Streaming Agent
+  - CMI Streaming Agent properties
+- Common Integration Components
+  - Common Integration Components properties
+- Data Access Management Agent service
+  - Compatible database drivers
+  - Data Access Management Agent service properties
+- Data Access Management Proxy service
+  - Data Access Management Proxy service properties
+- Database Ingestion service
+  - Database Ingestion service properties
+  - Database Ingestion Agent environment variables
+- Data Integration Server
+  - Data Integration Server resiliency
+  - Data Integration Server properties
+    - Creating the OSProfileUserMappingFile
+    - Setting the OSProfileScriptForTaskExecution
+  - Data Integration Server upgrades
+- Elastic Server
+  - Elastic Server properties
+  - Elastic Server concurrency
+- File Integration Service
+- GitRepoConnectApp
+  - Local repository base directory
+  - GitRepoConnectApp properties
+- IDMC Data Gateway Service
+  - IDMC Data Gateway Service properties
+- Mass Ingestion (Files)
+- Metadata Foundation Application
+  - Metadata Foundation Application properties
+- Metadata Platform Service
+  - Metadata Platform Service properties
+- Process Server
+  - Process Server properties
+    - Default connection database properties
+    - Logging levels
+    - Configuring a separate logging data source
+  - Process Server sizing recommendations
+  - Communication with the Secure Agent
+  - Secure Agent configurations for Process Server
+    - Deploy to a single Secure Agent
+    - Deploy to a Secure Agent group
+  - Prerequisites for PostgreSQL database installation and upgrade
+  - Managing the PostgreSQL database on Windows
+    - Backing up the PostgreSQL database on Windows
+    - Restoring the PostgreSQL database on Windows
+    - Resetting the PostgreSQL database on Windows
+    - Starting the PostgreSQL server on Windows
+    - Stopping the PostgreSQL server on Windows
+    - Getting the PostgreSQL server status on Windows
+    - Vacuuming the PostgreSQL database on Windows
+    - Reindexing the PostgreSQL database on Windows
+    - Resetting transaction logs on Windows
+  - Managing the PostgreSQL database on Linux
+    - Backing up the PostgreSQL database on Linux
+    - Restoring the PostgreSQL database on Linux
+    - Resetting the PostgreSQL database on Linux
+    - Starting the PostgreSQL server on Linux
+    - Stopping the PostgreSQL server on Linux
+    - Getting the PostgreSQL server status on Linux
+    - Vacuuming the PostgreSQL database on Linux
+    - Reindexing the PostgreSQL database on Linux
+    - Resetting transaction logs on Linux
+  - Upgrading the PostgreSQL database
+  - Upgrading the PostgreSQL database using the replication technique
+  - PostgreSQL configuration files
+  - Configuring PostgreSQL log rotation
+  - Configuring public certificates and private keys for Process Server
+  - Configuring thread pool profile to improve throughput
+  - Overriding properties in the platform.yaml file
+    - Creating a custom user-platform.yaml file
+    - Troubleshooting
+- SecretManagerApp
+- Configuring Secure Agent service properties
+
+## Connections
+- Connectors and connections
+  - Add-on connectors
+  - Installing an add-on connector
+- Connection configuration
+  - Configuring a connection
+  - Configuring a connection using sample data
+  - Viewing connection dependencies
+- ActiveCampaign connection properties
+- Adabas CDC Connection Properties
+- Adabas connection properties
+- Adaptive Insights Connection Properties
+- Adobe Analytics connection properties
+- Adobe Analytics Mass Ingestion connection properties
+- Advanced FTP Connection properties
+- Advanced FTP V2 connection properties
+- Advanced FTPS connection properties
+- Advanced FTPS V2 connection properties
+- Advanced SFTP connection properties
+- Advanced SFTP V2 connection properties
+- Amazon Athena connection properties
+- Amazon Aurora connection properties
+- Amazon DynamoDB connection properties
+- Amazon DynamoDB V2 connection properties
+- Amazon Kinesis connection properties
+- Amazon Redshift connection properties
+- Amazon Redshift V2 connection properties
+- Amazon S3 connection properties
+- Amazon S3 V2 connection properties
+- Amplitude connection properties
+- AMQP connection properties
+- Anaplan V2 connection properties
+- Ariba V2 connection properties
+- AS2 connection properties
+- BigMachines connection properties
+- Birst Cloud Connect connection properties
+- Box connection properties
+- Business 360 connection properties
+- Business 360 Events connection properties
+- Business 360 FEP connection properties
+- CallidusCloud Commissions connection properties
+- CallidusCloud File Processor connection properties
+- Cassandra V2 connection properties
+- Chatter connection properties
+- Cloud Integration Hub connection properties
+- Concur connection properties
+- Concur V2 connection properties
+- Couchbase connection properties
+- Coupa connection properties
+- Coupa V2 connection properties
+- Cvent connection properties
+- Databricks connection properties
+- Datacom CDC Connection Properties
+- Datacom Connection Properties
+- Db2 Data Map connection properties
+- Db2 for i CDC connection properties
+- Db2 for i connection properties
+- Db2 for i Database Ingestion connection properties
+- Db2 for LUW CDC connection properties
+- Db2 for LUW Database Ingestion connection properties
+- Db2 for z/OS Bulk Load connection properties
+- Db2 for z/OS CDC connection properties
+- Db2 for z/OS connection properties
+- Db2 for zOS Database Ingestion connection properties
+- Db2 for z/OS Image Copy connection properties
+- Db2 for z/OS Unload File connection properties
+- DB2 Loader connection properties
+- Db2 Warehouse on Cloud connection properties
+- Domo connection properties
+- Dropbox connection properties
+- Elasticsearch connection properties
+- Eloqua Bulk API connection properties
+- Eloqua REST connection properties
+- FHIR connection properties
+- File List connection properties
+- File Processor connection properties
+- FileIO connection properties
+- Flat file connections
+- FTP/SFTP connections
+- Google Ads connection properties
+- Google Analytics connection properties
+- Google Analytics Mass Ingestion connection properties
+- Google BigQuery connection properties
+- Google BigQuery V2 connection properties
+- Google Bigtable connection properties
+- Google Cloud Storage connection properties
+- Google Cloud Storage V2 connection properties
+- Google Drive connection properties
+- Google PubSub - Streaming Ingestion and Replication connection properties
+- Google PubSub connection properties
+- Google PubSub V2 connection properties
+- Google Sheets connection properties
+- Google Sheets V2 connection properties
+- Greenplum connection properties
+- Hadoop connection properties
+- Hadoop Files connection properties
+- Hadoop Files V2 connection properties
+- Hive connection properties
+- HubSpot connection properties
+- IBM MQ connection properties
+- IDMS CDC connection properties
+- IDMS connection properties
+- IMS CDC Connection Properties
+- IMS connection properties
+- JD Edwards EnterpriseOne connection properties
+- JDBC connection properties
+- JDBC V2 connection properties
+- JIRA Cloud connection properties
+- Jira connection properties
+- JMS connection properties
+- JSON Target connection properties
+- Kafka connection properties
+- Klaviyo connection properties
+- LDAP connection properties
+- Magento V1 connection properties
+- Mailchimp connection properties
+- Marketo V3 connection properties
+- Microsoft Access connection properties
+- Microsoft Azure Blob Storage connection properties
+- Microsoft Azure Blob Storage V2 connection properties
+- Microsoft Azure Blob Storage V3 connection properties
+- Microsoft Azure Cosmos DB SQL API connection properties
+- Microsoft Azure Data Lake Storage Gen2 connection properties
+- Microsoft Azure DocumentDB Connection Properties
+- Microsoft Azure Event Hub connection properties
+- Microsoft Azure SQL Data Warehouse - Database Ingestion connection properties
+- Microsoft Azure SQL Data Warehouse connection properties
+- Microsoft Azure SQL Data Warehouse V2 connection properties
+- Microsoft Azure Synapse Analytics Database Ingestion connection properties
+- Microsoft Azure Synapse SQL connection properties
+- Microsoft CDM Folders V2 connection properties
+- Microsoft Dynamics 365 for Operations connection properties
+- Microsoft Dynamics 365 for Sales connections
+- Microsoft Dynamics 365 Mass Ingestion connection properties
+- Microsoft Dynamics AX V3 connection properties
+- Microsoft Dynamics CRM connection properties
+- Microsoft Dynamics NAV connection properties
+- Microsoft Excel connection properties
+- Microsoft Fabric Data Warehouse connection properties
+- Microsoft Fabric Lakehouse connection properties
+- Microsoft Fabric OneLake connection properties
+- Microsoft Power BI Connection Properties
+- Microsoft SharePoint connection properties
+- Microsoft Sharepoint Online connection properties
+- Microsoft SQL Server CDC connection properties
+- Microsoft SQL Server connection properties
+- Mixpanel connection properties
+- MLLP connection properties
+- MongoDB Mass Ingestion connection properties
+- MongoDB connection properties
+- MongoDB V2 connection properties
+- MQTT connection properties
+- MRI Software connection properties
+- MySQL CDC connection properties
+- MySQL connection properties
+- Netezza connection properties
+- NetSuite connection properties
+- NetSuite Mass Ingestion connection properties
+- NetSuite RESTlet V2 connection properties
+- NICE Satmetrix connection properties
+- OData connections properties
+- OData consumer connection properties
+- OData V2 Protocol Reader connection properties
+- OData V2 Protocol Writer connection properties
+- ODBC connection properties
+- OpenAir connection properties
+- Open Table connection properties
+- Oracle connection properties
+- Oracle Autonomous Database connections
+- Oracle Business Intelligence Publisher connection properties
+- Oracle CDC V2 connection properties
+- Oracle Cloud Object Storage connections
+- Oracle CRM Cloud V1 connections properties
+- Oracle CRM On Demand connection properties
+- Oracle Database Ingestion connection properties
+- Oracle Financials Cloud V1 connection properties
+- Oracle Fusion Cloud Mass Ingestion connection properties
+- Oracle HCM Cloud V1 connection properties
+- Pinecone connection properties
+- PostgreSQL CDC connection properties
+- PostgreSQL connection properties
+- Power BI connection properties
+- QuickBooks V2 Connection Properties
+- Redis connection properties
+- REST API connection properties
+- REST V2 connection properties
+- REST V3 Connection Properties
+- Salesforce Analytics connection properties
+- Salesforce Commerce Cloud connection properties
+- Salesforce connection properties
+- Salesforce Data Cloud connection properties
+- Salesforce Marketing Cloud connection properties
+- Salesforce Mass Ingestion connection properties
+- Salesforce Pardot connection properties
+- SAP connection properties
+- SAP ADSO Writer connection properties
+- SAP BAPI connection properties
+- SAP BW Connector connection properties
+- SAP BW BEx Query connection properties
+- SAP HANA CDC Connection Properties
+- SAP HANA connection properties
+- SAP HANA Database Ingestion connection properties
+- SAP IQ connection properties
+- SAP Mass Ingestion connection properties
+- SAP OData V2 connection properties
+- SAP OData V4 connection properties
+- SAP ODP Extractor connection properties
+- SAP Table Connector connection properties
+- SAS connection properties
+- Satmetrix connection properties
+- Sequential File connection properties
+- ServiceNow connection properties
+- ServiceNow Mass Ingestion connection properties
+- Shopify connection properties
+- Slack connection properties
+- Snowflake connection properties
+- Snowflake Data Cloud connection properties
+- Stripe connection properties
+- SuccessFactors LMS connection properties
+- Successfactor ODATA connection properties
+- SuccessFactors SOAP connection properties
+- SurveyMonkey connection properties
+- Tableau V2 connection properties
+- Tableau V3 connection properties
+- Teradata connection properties
+- UKGPro V2 connection properties
+- UltiPro connection properties
+- VSAM CDC connection properties
+- VSAM connection properties
+- Web Service Consumer connection properties
+- WebServices V2 connection properties
+- Workday connection properties
+- Workday Mass Ingestion connection properties
+- Workday V2 connection properties
+- Xactly connection properties
+- Xero connection properties
+- XML Source connection properties
+- XML Target connection properties
+- Yellowbrick Data Warehouse connection properties
+- Zendesk connection properties
+- Zendesk Mass Ingestion connection properties
+- Zendesk V2 connection properties
+- Zuora AQuA Connection properties
+- Zuora connection properties
+- Zuora REST V2 connection properties
+
+## File Transfer
+- File transfer
+- File server configuration process
+  - Before you begin
+- File servers
+  - Configuring a file server
+  - AS2 server configuration properties
+  - HTTPS server configuration properties
+  - SFTP server configuration properties
+  - MLLP server configuration properties
+  - Proxy server configuration properties
+  - Installing a file integration proxy server
+  - Stopping and starting a file server
+    - Stopping and starting HTTPS, AS2, SFTP, and MLLP servers
+    - Stopping and starting a proxy server
+- File server users
+  - Configuring a file server user
+  - File server user properties
+  - Deleting a file server user
+- File transfer tasks
+- Global settings
+
+## Advanced Clusters
+- Advanced clusters
+  - Advanced cluster types
+  - Fully-managed clusters
+    - Setting up cluster resources for a fully-managed cluster
+    - Creating a fully-managed cluster
+    - Submitting jobs to a fully-managed cluster
+    - Stopping a fully-managed cluster
+  - Self-service clusters
+  - Local clusters
+    - Default local clusters
+    - Default staging and log locations
+    - Rules and guidelines for local clusters
+  - Managing advanced cluster costs
+- Setting up AWS
+  - Step 1. Complete prerequisites
+    - Verify privileges in your organization
+    - Verify AWS subscriptions
+    - Learn about roles and policies in the AWS environment
+    - Learn about resource access
+    - Learn about the AWS cluster
+  - Step 2. Create storage locations for cluster files
+  - Step 3. Create the VPC and subnets (optional)
+    - Create subnets with enough IP addresses
+    - Verify the routing configuration
+    - Accept inbound traffic
+  - Step 4. Create user-defined security groups for Amazon EC2
+    - Create the ELB security group
+    - Create the master security group
+    - Create the worker security group
+    - Use default security groups (alternative)
+  - Step 5. Download and install a Secure Agent
+  - Step 6. Allow domains in AWS
+  - Step 7. Create IAM roles
+    - Create the cluster operator role
+    - Create the cluster operator policy
+    - Attach the cluster operator policy
+    - Configure the maximum CLI/API session duration for the cluster operator role
+    - Create or reuse the Secure Agent role
+    - Add the AssumeRole permission to the Secure Agent role
+    - Configure the trust relationship for the cluster operator role to include the Secure Agent role
+    - Create user-defined master and worker roles
+    - Encrypt staging data and log files at rest (optional)
+    - Create role-based security policies for Amazon data sources (optional)
+    - Create or reuse a log access policy for the Secure Agent role
+  - Step 8. Configure environment variables (optional)
+  - Step 9. Configure the Elastic Server
+  - Additional setup for CLAIRE-powered configurations
+  - IAM policy reference
+    - Cluster operator role actions
+    - Master role actions
+    - Worker role actions
+  - Master and worker role types reference
+  - Master and worker policy restriction reference
+- Setting up Google Cloud
+  - Step 1. Complete prerequisites
+    - Verify privileges in your organization
+    - Verify Google Cloud services
+    - Learn about resource access
+    - Learn about the Google Cloud cluster
+  - Step 2. Create storage locations for cluster files
+  - Step 3. Create the VPC and subnets (optional)
+    - Create a subnet with enough IP addresses
+    - Create a Google Cloud NAT gateway
+    - Create firewall rules in the VPC network
+  - Step 4. Download and install a Secure Agent
+  - Step 5. Allow domains in Google Cloud
+  - Step 6. Configure a proxy for the cluster (optional)
+  - Step 7. Create roles and service accounts
+    - Create a Secure Agent role and service account
+    - Create a master role and service account
+    - Create a worker node role and service account
+  - Step 8. Configure the JAVA_HOME environment variable
+  - Step 9. Create a staging connection
+- Setting up Microsoft Azure
+  - Step 1. Complete prerequisites
+    - Verify privileges in your organization
+    - Verify Microsoft Azure products
+    - Learn about resource access
+  - Step 2. Create storage accounts for cluster files
+  - Step 3. Create the VNet and subnets (optional)
+    - Create subnets with enough IP addresses
+    - Verify the routing configuration
+    - Accept inbound traffic
+  - Step 4. Download and install a Secure Agent
+  - Step 5. Allow domains in Azure
+  - Step 6. Configure a proxy for the cluster (optional)
+  - Step 7. Create a managed identity for the Secure Agent
+    - Create a cluster resource group
+    - Create a managed identity
+    - Create an agent role
+    - Add role assignments
+  - Step 8. Create a service principal for the cluster
+    - Create a service principal
+    - Create a cluster role
+    - Add a role assignment
+    - Store the credentials in a key vault
+    - Add an access policy to the key vault
+  - Step 9. Create a managed identity to access sources and targets (optional)
+  - Step 10. Create user defined security groups (optional)
+    - Default network security groups for advanced clusters
+    - User defined security groups in an advanced cluster on Azure
+    - Troubleshoot cluster pre-validation failures
+  - Step 11. Configure the JAVA_HOME environment variable (optional)
+  - Step 12. Create a staging connection (optional)
+- Setting up a self-service cluster
+  - Step 1. Complete prerequisites
+    - Verify privileges in your organization
+    - Learn about resource access
+  - Step 2. Download and install a Secure Agent
+  - Step 3. Allow domains for self-service clusters
+  - Step 4. Download and configure the kubeconfig file on the Secure Agent
+    - Add annotations and tolerations (optional)
+  - Step 5. Create a Kubernetes ClusterRole and Role
+    - Configure role permissions
+    - Create role bindings
+    - Use an Informatica-managed service account (alternative)
+  - Step 6. Create a storage role
+    - Create a storage role on AWS
+    - Create a storage role on Microsoft Azure
+  - Step 7. Configure access to data sources
+  - Additional configuration for clusters on AWS
+    - Configure cluster authentication
+    - Configure cluster nodes with IMDSv2
+- Setting up a local cluster
+  - Prepare for local clusters
+  - Download and install a Secure Agent
+  - Troubleshoot a local cluster
+- Advanced configurations
+  - CLAIRE-powered configurations
+    - Cluster budget estimates
+    - CLAIRE recommendations
+  - AWS properties
+    - Validating the configuration
+    - Amazon Linux 2 images
+    - GPU worker instance type
+    - Graviton worker instance type
+    - Spot Instances
+    - High availability
+    - Accessing a new staging location
+    - Propagating tags to cloud resources
+    - Default tags for cloud resources
+    - Data encryption
+  - Google Cloud properties
+    - Validating the configuration
+    - Propagating labels to cloud resources
+    - Data encryption
+  - Microsoft Azure properties
+    - Validating the configuration
+    - Spot Instances
+    - High availability
+    - Accessing a new staging location
+    - Propagating tags to cloud resources
+    - Default tags for cloud resources
+    - Data encryption
+  - Local cluster advanced configuration
+    - Change staging and log locations (optional)
+    - Local cluster properties
+    - Configure cloud permissions
+    - Data encryption
+  - Self-service cluster properties
+    - Runtime Properties
+    - Validating the configuration
+  - Resource requirements for cluster nodes
+    - Reconfiguring resource requirements
+    - Resource requirements example
+  - Initialization scripts
+  - Initialization script failures
+  - Updating the runtime environment or the staging location
+- Troubleshooting
+  - Troubleshooting an advanced cluster
+  - Troubleshooting an advanced cluster on AWS
+  - Troubleshooting an advanced cluster on Microsoft Azure
+  - Troubleshooting an advanced cluster subtask
+  - Troubleshooting a self-service cluster
+  - Shutting down the Secure Agent machine and cloud resources
+- Command reference
+  - generate-policies-for-userdefined-roles.sh
+  - list-clusters.sh
+  - delete-clusters.sh
+  - cluster-operations.sh
+
+## Data Services Repository
+- Data services repository
+  - Data service names and types
+  - Data service customization
+  - Downloading a data service
+  - Creating a custom data service
+  - Editing or deleting a custom data service
+  - Saving and resetting default filters
+
+## REST API Reference
+- Informatica Intelligent Cloud Services REST API
+  - Platform and service-specific REST APIs
+  - REST API versions
+  - Header and body configuration
+    - Request header
+    - Request body
+    - Return lists
+    - JSON format example
+    - XML format example
+  - Update modes
+  - Date/time values
+  - Object IDs
+  - Session IDs
+  - REST API responses
+  - Success object
+  - Error object
+  - REST API rules and guidelines
+  - Documentation conventions
+- Platform REST API version 2 resources
+  - Activity logs
+    - Logs for completed jobs
+    - Logs for running jobs
+  - Audit logs
+  - Bundles
+    - Bundle details
+    - Bundle licenses
+    - Installing and uninstalling bundles
+  - Jobs
+    - Starting a job
+    - Stopping a job
+    - Cleanly stopping a job
+  - Login
+    - Logging in
+    - Logging in using a JSON web token
+    - Logging in using SAML
+    - Logging in using Salesforce
+  - Logout
+    - Logging out
+    - Logging out and ending all sessions
+  - Organizations
+    - Organization management
+    - Creating sub-organizations
+  - Runtime environments
+    - Getting runtime environment details
+    - Creating, updating, and deleting Secure Agent groups
+    - Managing Secure Agent group selections
+    - Configuring Secure Agent service properties for Secure Agent groups
+  - Schedules
+  - Secure Agents and services
+  - Server time
+  - Tasks
+  - Users
+- Platform REST API version 3 resources
+  - Export and import
+  - Exporting objects
+    - Starting an export job
+    - Getting the export job status
+    - Downloading an export package
+  - Identity providers
+    - Registering an identity provider
+    - Getting identity provider details
+    - Updating an identity provider
+    - Deleting an identity provider
+  - Importing objects
+    - Uploading an import package
+    - Starting an import job
+    - Getting the import job status
+  - IP addresses
+  - Key rotation
+    - Getting key rotation interval settings
+    - Changing key rotation intervals
+  - Licenses
+    - Getting license details
+    - Updating a sub-organization's licenses
+  - Login
+  - Logout
+  - Lookup
+  - Metering data
+    - Requesting summary IPU usage data
+    - Requesting project-level metering data
+    - Requesting asset-level data
+    - Requesting job-level metering data
+    - Getting the metering data export job status
+    - Getting custom IPU alert configurations
+    - Downloading the metering data
+  - Object state synchronization
+    - fetchState
+    - loadState
+  - Objects
+    - Finding an asset
+    - Finding asset dependencies
+  - Object permissions
+    - Creating permissions
+    - Updating permissions
+    - Deleting permissions
+    - Getting permission details
+    - Checking permissions
+  - Passwords
+    - Changing a password
+    - Resetting a password
+  - Privileges
+  - Projects and folders
+    - Creating a project
+    - Updating a project
+    - Deleting a project
+    - Creating a folder
+    - Updating a folder
+    - Deleting a folder
+  - Roles
+    - Getting role details
+    - Creating a role
+    - Updating a role
+    - Deleting a role
+  - SAML group and role mapping
+    - Adding SAML group mappings
+    - Adding SAML role mappings
+    - Removing SAML group mappings
+    - Removing SAML role mappings
+    - Getting SAML group mapping details
+    - Getting SAML role mapping details
+  - Schedules
+    - Getting schedule details
+    - Creating a schedule
+    - Updating a schedule
+    - Deleting a schedule
+  - SCIM tokens
+    - Listing SCIM tokens
+    - Creating a SCIM token
+    - Deleting a SCIM token
+  - Secure Agent services
+  - Security logs
+  - Source control
+    - Pulling objects
+    - Pulling objects in a commit
+    - Checking out objects
+    - Undoing a checkout
+    - Checking in objects
+    - Getting commit details
+    - Getting commit history
+    - Getting repository
