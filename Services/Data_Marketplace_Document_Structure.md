@@ -1,0 +1,313 @@
+## Introduction and Getting Started
+- Preface
+- Welcome to Data Marketplace
+  - Prerequisites
+  - Log in
+  - Home page
+  - Guide Me panel
+- Permissions and privileges for Data Marketplace
+  - Asset permissions
+  - Feature privileges
+  - Predefined roles
+    - Data Marketplace User
+    - Data Marketplace Data Collection Owner
+    - Data Marketplace Data Collection Technical Owner
+    - Data Marketplace Delivery Template Owner
+    - Data Marketplace Category Owner
+    - Data Marketplace Technical Administrator
+    - Data Marketplace Administrator
+    - Governance User
+    - Governance Owner
+    - Governance Administrator
+  - Custom roles
+    - Example of custom role - Data Auditor
+- How Data Marketplace works
+  - Business example
+  - Terms used in Data Marketplace
+  - Create new items
+  - Categories
+    - Browse panel
+    - Summary tab
+    - Data Collections tab
+    - Stakeholders tab
+    - Display section
+  - Data collections
+    - Summary tab
+    - Data Assets tab
+    - Delivery tab
+    - Terms of use tab
+    - Stakeholders tab
+    - Consumers tab
+    - Approve tab
+    - Fulfill tab
+    - Withdraw tab
+    - Order section
+  - Data assets
+    - Summary tab
+    - Data Elements tab
+    - Data Quality tab
+    - Data Collections tab
+  - My Data page
+    - Data I Use tab
+    - Data I Own tab
+  - Collaboration in Data Marketplace
+    - Collaboration on objects
+    - Collaboration on the Setup page
+- Informatica resources
+  - Informatica Intelligent Cloud Services web site
+  - Informatica Intelligent Cloud Services Communities
+  - Informatica Intelligent Cloud Services Marketplace
+  - Informatica Intelligent Cloud Services Trust Center
+  - Informatica Product Availability Matrices
+  - Informatica Documentation
+  - Informatica Knowledge Base
+  - Informatica Global Customer Support
+
+## Set Up Data Marketplace
+- Integrate Data Marketplace with other Informatica services
+  - Enrich data collections with Data Governance and Catalog assets
+  - Apply Data Quality rules on data elements
+  - Use Metadata Command Center to enrich and manage objects
+    - Implement access controls on metadata
+    - Manage reference IDs of objects
+    - Create custom attributes for objects
+  - Manage access to data with Data Access Management
+- Create new items
+  - Bulk create data
+  - Categories
+    - Creating categories
+    - Modifying categories
+    - Deleting categories
+  - Data assets
+    - Creating data assets
+    - Searching for data assets
+    - Modifying data assets
+    - Adding a data asset to data collections
+    - Creating a data collection from a data asset
+    - Deleting data assets
+  - Delivery options
+    - Creating delivery formats
+    - Creating delivery methods
+    - Creating delivery templates
+    - Modifying delivery options
+  - Terms of use
+    - Defining the general terms of use
+    - Creating new terms of use
+    - Modifying terms of use
+  - Usage types
+    - Defining usage types
+    - Modifying usage types
+  - Cost centers
+    - Examples of cost centers
+    - Enabling cost centers
+    - Adding cost centers
+    - Modifying cost centers
+- Configure Data Marketplace
+  - Interface customization
+    - Display your organization logo
+    - Customizing the interface theme
+  - Label customizations
+  - Customize notifications
+  - Star Owner
+  - Advanced Search
+
+## Working With Data Collections
+- Search and access data collections
+  - Browsing for data collections
+    - Data Collections tab
+    - Other Items tab
+    - Related Data Collections tab
+    - Reserved words
+  - Comparing data collections
+  - Ordering data collections
+  - Rating data collections
+  - Requesting new data collections
+  - View your orders and data collection requests
+- Manage data collections
+  - View data collection requests
+  - Responding to data collection requests
+  - Creating data collections
+    - Adding data assets to a data collection
+    - Specifying delivery targets for data collection
+    - Adding terms of use to a data collection
+  - Modifying data collections
+    - Modifying stakeholders of a data collection
+    - Modifying delivery targets
+    - Deleting delivery targets
+  - Linking data collections
+  - Deleting data collections
+- Deliver data collections
+  - Orders
+    - View order details
+    - View orders
+    - Responding to orders
+    - Fulfilling orders
+  - Consumer accesses
+    - View consumer access details
+    - View consumer accesses
+    - Requesting withdrawal of consumer accesses
+    - Withdrawing consumer accesses
+
+## Bulk Create Items
+- Overview
+  - Stages of bulk create
+    - Stage 1: Uploading the template file
+    - Stage 2: Creating items in Data Marketplace
+    - Stage 3: Viewing the summary
+  - Guidelines for using the template files
+- Define settings for data collections
+  - Categories
+  - Delivery formats
+  - Delivery methods
+  - Delivery templates
+  - Terms of use
+  - Usage types
+  - Cost centers
+- Create Data Marketplace content
+  - Data elements
+  - Data assets
+  - Data collections
+  - Consumer accesses
+- Create object relationships
+  - Specify delivery targets for data collections
+  - Add data assets to data collections
+  - Add terms of use to data collections
+
+## API Reference
+- Introduction
+  - How to call a Data Marketplace API
+    - Create a system service action
+    - Invoke a system service action
+    - Using JWT Authentication
+  - Response body and response codes
+- Define settings for data collections
+  - Categories
+    - Create categories
+    - Retrieve categories
+    - Modify categories
+    - Delete categories
+  - Delivery formats
+    - Create delivery formats
+    - Retrieve delivery formats
+    - Modify delivery formats
+  - Delivery methods
+    - Create delivery methods
+    - Retrieve delivery methods
+    - Modify delivery methods
+  - Delivery templates
+    - Create delivery templates
+    - Retrieve delivery templates
+    - Modify delivery templates
+  - Delivery targets
+    - Create delivery targets
+    - Retrieve delivery targets
+    - Modify delivery targets
+  - Terms of use
+    - Create terms of use
+    - Retrieve terms of use
+    - Modify terms of use
+    - Update the status of a terms of use
+  - Usage types
+    - Create usage type
+    - Retrieve usage type
+    - Modify usage type
+    - Update the status of an usage type
+  - Cost centers
+    - Create cost centers
+    - Retrieve cost centers
+    - Modify cost centers
+- Manage Data Marketplace content
+  - Data elements
+    - Create data elements
+    - Retrieve data elements
+    - Modify data elements
+    - Delete data elements
+    - Manage the data quality information of a data element
+  - Data assets
+    - Create data assets
+    - Retrieve data assets
+    - Modify data assets
+    - Delete data assets
+- Manage data collections
+  - Create data collections
+    - Endpoint and method
+    - Request
+    - Example request
+    - Response
+  - Retrieve data collections
+    - Endpoint and method
+    - Request
+    - Example request
+    - Response
+  - Modify data collections
+    - Endpoint and method
+    - Request
+    - Example request
+    - Response
+  - Delete data collections
+    - Endpoint and method
+    - Request
+    - Example request
+    - Response
+  - Add or remove data assets from data collections
+    - Endpoint and method
+    - Request
+    - Example request
+    - Response
+  - Add or remove terms of use from data collections
+    - Endpoint and method
+    - Request
+    - Example request
+    - Response
+  - Retrieve the data assets of a data collection
+    - Endpoint and method
+    - Request
+    - Example request
+    - Response
+  - Retrieve the terms of use of a data collection
+    - Endpoint and method
+    - Request
+    - Example request
+    - Response
+  - Retrieve data collection rating
+    - Endpoint and method
+    - Request
+    - Example request
+    - Response
+- Manage requests, orders and consumer accesses
+  - Data collection requests
+    - Retrieve data collection requests
+    - Reject data collection requests
+    - Fulfill data collection requests
+    - Cancel data collection requests
+    - Delete data collection requests
+  - Orders
+    - Retrieve orders
+    - Approve orders
+    - Reject orders
+    - Fulfill orders
+    - Cancel orders
+    - Delete orders
+  - Consumer accesses
+    - Create consumer accesses
+    - Retrieve consumer accesses
+    - Make consumer accesses available
+    - Submit consumer access withdrawals
+    - Withdraw consumer accesses
+    - Delete consumer accesses
+- Miscellaneous APIs
+  - Collaboration on objects
+    - Comment on an object
+    - Retrieve comments on an object
+  - Data Marketplace customizations
+    - Retrieve customizations
+    - Update customizations
+    - Reset customizations
+  - Custom fields
+    - Retrieve custom fields
+  - Technical content
+    - Retrieve the technical content of an object
+    - Update the technical content of an object
+- Frequently Asked Questions
+  - How do I retrieve the system generated unique identifier of a Data Marketplace object?
+  - How do I retrieve the system generated unique identifier of a user account or user group?
