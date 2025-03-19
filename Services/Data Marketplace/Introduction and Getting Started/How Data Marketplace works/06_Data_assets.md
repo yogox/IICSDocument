@@ -39,7 +39,7 @@ The following table describes the fields in the Data Asset Summary panel:
 
 **Add to Data Collection section**
 
-In the Add to Data Collection section, add the data asset to an existing data collection or use the data asset details to create a new data collection for the data asset. For more information, see Data Assets in the Set Up Data Marketplace help.
+In the Add to Data Collection section, add the data asset to an existing data collection or use the data asset details to create a new data collection for the data asset. For more information, see the Data Assets topic in the Set Up Data Marketplace help.
 
 **Associated Data Collections section**
 
@@ -49,7 +49,7 @@ In the Associated Data Collections section, you can view all the data collection
 
 In the Metrics section, you can view the data quality metrics for the data asset. For more information, see Data Quality tab.
 
-Typically, a Data Marketplace Administrator is responsible for creating and managing Data Marketplace data assets. For more information about creating or modifying a data asset, see Data Assets in the Set Up Data Marketplace help.
+Typically, a Data Marketplace Administrator is responsible for creating and managing Data Marketplace data assets. For more information about creating or modifying a data asset, see the Data Assets topic in the Set Up Data Marketplace help.
 
 ### Governed data asset
 
@@ -93,7 +93,7 @@ For more information about Data Governance and Catalog assets, see the Working W
 
 **Add to Data Collection section**
 
-In the Add to Data Collection section, add the data asset to an existing data collection or use the data asset details to create a new data collection for the data asset. For more information, see Data Assets in the Set Up Data Marketplace help.
+In the Add to Data Collection section, add the data asset to an existing data collection or use the data asset details to create a new data collection for the data asset. For more information, see the Data Assets topic in the Set Up Data Marketplace help.
 
 **Associated Data Collections section**
 
@@ -140,7 +140,7 @@ The following table describes the fields in the Data Elements grid:
 | Status | Status of the data element. A data element can have one of the following statuses: - Enabled. The data element is available. - Disabled. The data element is not available. |
 | Data Quality | Data quality score of the data element as calculated in a data quality system. |
 
-For more information about how to add a data asset and add data element to a data asset, see Data Assets in the Set Up Data Marketplace help.
+For more information about how to add a data asset and add data element to a data asset, see the Data Assets topic in the Set Up Data Marketplace help.
 
 ## Data Quality tab
 
