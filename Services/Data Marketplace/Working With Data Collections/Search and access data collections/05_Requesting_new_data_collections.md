@@ -27,7 +27,7 @@ The following image shows the overall process of requesting the creation of a ne
 
    You can also use the Request New Data Collection button on the Data Collections tab of the category page to submit a data collection request.
 
-   ![Image depicting the Request New Data Collection wizard.](../bb-working-with-data-collections/images/GUID-9606296B-AFCC-4496-8330-64C46FEE113F-low.png)
+   ![Image depicting the Request New Data Collection wizard.](https://onlinehelp.informatica.com/IICS/prod/DMP/en/bb-working-with-data-collections/images/GUID-9606296B-AFCC-4496-8330-64C46FEE113F-low.png)
 
 3. On the Request Details section, you can enter the details of your request.
 
