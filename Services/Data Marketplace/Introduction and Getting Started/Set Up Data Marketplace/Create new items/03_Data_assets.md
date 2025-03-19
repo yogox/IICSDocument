@@ -4,7 +4,7 @@ A representation of data in an organization. Data assets may contain relevant da
 
 The following image shows the details page of a data asset:
 
-![Image depicting the details page of a data asset.](../cc-setup-data-marketplace/images/GUID-33F9B2CB-E9DA-4427-ADF1-8E9896DB138E-low.png)
+![Image depicting the details page of a data asset.](https://onlinehelp.informatica.com/IICS/prod/DMP/en/cc-setup-data-marketplace/images/GUID-33F9B2CB-E9DA-4427-ADF1-8E9896DB138E-low.png)
 
 Data assets are the building blocks with which stakeholders can create data collections. On top of using Data Governance and Catalog assets, stakeholders can also use data assets native to Data Marketplace to enrich their data collections. As a Data Marketplace Administrator, you are responsible for creating Data Marketplace data assets. For more information about how you can create data assets, see [Creating data assets](#ww3_9_12_8_1 "Data assets").
 
@@ -24,7 +24,7 @@ To perform this task, verify the following prerequisites:
 1. Open the Setup page.
 2. In the Data Assets grid on the Setup > Data Assets tab, click New.
 
-![Image depicting the New Data Asset dialog box.](../cc-setup-data-marketplace/images/GUID-4F8B67CE-EB77-40C7-84A0-13C849F11EAC-low.png)
+![Image depicting the New Data Asset dialog box.](https://onlinehelp.informatica.com/IICS/prod/DMP/en/cc-setup-data-marketplace/images/GUID-4F8B67CE-EB77-40C7-84A0-13C849F11EAC-low.png)
 
 3. In the New Data Asset dialog box, configure the data asset properties.
 
@@ -32,7 +32,7 @@ The following table describes the properties of a data asset that you can config
 
 | Property | Description |
 | --- | --- |
-| Reference ID | Enter a reference identifier for the data asset. If you don't specify a reference identifier, Data Marketplace automatically assigns a unique value to the object. If you want to specify a reference identifier, enter a unique alphabetical, numeric or alphanumeric value. You can also use special characters when you enter a reference identifier value. Ensure that the value that you enter doesn't use a prefix value that is configured in Metadata Command Center. For more information about reference IDs, see [Manage reference IDs of objects](../cc-setup-data-marketplace/Use_Metadata_Command_Center_to_enrich_and_manage_objects.html#ww3_6_11_10_1 "Use Metadata Command Center to enrich and manage objects"). |
+| Reference ID | Enter a reference identifier for the data asset. If you don't specify a reference identifier, Data Marketplace automatically assigns a unique value to the object. If you want to specify a reference identifier, enter a unique alphabetical, numeric or alphanumeric value. You can also use special characters when you enter a reference identifier value. Ensure that the value that you enter doesn't use a prefix value that is configured in Metadata Command Center. For more information about reference IDs, see [Manage reference IDs of objects](https://onlinehelp.informatica.com/IICS/prod/DMP/en/cc-setup-data-marketplace/Use_Metadata_Command_Center_to_enrich_and_manage_objects.html#ww3_6_11_10_1 "Use Metadata Command Center to enrich and manage objects"). |
 | Name | Enter a name for the data asset. |
 | Description | Enter a description for the data asset. |
 | Data Source | Specify the source system from which the data is supplied to Data Marketplace. |
@@ -76,7 +76,7 @@ Verify the data element
 
 3. On the Data Elements tab on the data asset page, click New.
 
-![Image depicting the New Data Element dialog box.](../cc-setup-data-marketplace/images/GUID-3B9807D3-2882-49EE-ADB6-3BB357C371D4-low.png)
+![Image depicting the New Data Element dialog box.](https://onlinehelp.informatica.com/IICS/prod/DMP/en/cc-setup-data-marketplace/images/GUID-3B9807D3-2882-49EE-ADB6-3BB357C371D4-low.png)
 
 4. In the New Data Element dialog box, configure the data element properties.
 
@@ -84,7 +84,7 @@ The following table describes the properties of a data element that you can conf
 
 | Property | Description |
 | --- | --- |
-| Reference ID | Enter a reference identifier for the data element. If you don't specify a reference identifier, Data Marketplace automatically assigns a unique value to the object. If you want to specify a reference identifier, enter a unique alphabetical, numeric or alphanumeric value. You can also use special characters when you enter a reference identifier value. Ensure that the value that you enter doesn't use a prefix value that is configured in Metadata Command Center. For more information about reference IDs, see [Manage reference IDs of objects](../cc-setup-data-marketplace/Use_Metadata_Command_Center_to_enrich_and_manage_objects.html#ww3_6_11_10_1 "Use Metadata Command Center to enrich and manage objects"). |
+| Reference ID | Enter a reference identifier for the data element. If you don't specify a reference identifier, Data Marketplace automatically assigns a unique value to the object. If you want to specify a reference identifier, enter a unique alphabetical, numeric or alphanumeric value. You can also use special characters when you enter a reference identifier value. Ensure that the value that you enter doesn't use a prefix value that is configured in Metadata Command Center. For more information about reference IDs, see [Manage reference IDs of objects](https://onlinehelp.informatica.com/IICS/prod/DMP/en/cc-setup-data-marketplace/Use_Metadata_Command_Center_to_enrich_and_manage_objects.html#ww3_6_11_10_1 "Use Metadata Command Center to enrich and manage objects"). |
 | Name | Enter a name for the data element. |
 | Description | Enter a description for the data element |
 | URI | Enter a uniform resource identifier for the data element in the source system where the data element is stored. |
@@ -105,7 +105,7 @@ Use the search bar to look up data assets that are native to Data Marketplace.
 
 The following image shows the Data Assets tab on the Setup page:
 
-![Image depicting the Data Assets tab on the Setup page.](../cc-setup-data-marketplace/images/GUID-46E1A7C5-CEE0-4A48-B640-D03D2B716E1D-low.png)
+![Image depicting the Data Assets tab on the Setup page.](https://onlinehelp.informatica.com/IICS/prod/DMP/en/cc-setup-data-marketplace/images/GUID-46E1A7C5-CEE0-4A48-B640-D03D2B716E1D-low.png)
 
 To search for a data asset on the Setup > Data Assets tab, enter the name of data asset in the search bar, and click Search.
 
@@ -199,8 +199,8 @@ The following table describes the properties of a data asset that you can config
 
 | Property | Description |
 | --- | --- |
-| Associated Data Collections | The data collections to which the data asset is added. **Note:** If a data collection associated with the data asset is added to an asset group for which you aren't assigned the required permissions. The Associated Data Collections field won't display the data collection. For more information about asset groups, see [Implement access controls on metadata](../cc-setup-data-marketplace/Use_Metadata_Command_Center_to_enrich_and_manage_objects.html#ww3_6_11_7_1 "Use Metadata Command Center to enrich and manage objects"). |
-| Reference ID | Enter a reference identifier for the data asset. If you don't specify a reference identifier, Data Marketplace automatically assigns a unique value to the object. If you want to specify a reference identifier, enter a unique alphabetical, numeric or alphanumeric value. You can also use special characters when you enter a reference identifier value. Ensure that the value that you enter doesn't use a prefix value that is configured in Metadata Command Center. For more information about reference IDs, see [Manage reference IDs of objects](../cc-setup-data-marketplace/Use_Metadata_Command_Center_to_enrich_and_manage_objects.html#ww3_6_11_10_1 "Use Metadata Command Center to enrich and manage objects"). |
+| Associated Data Collections | The data collections to which the data asset is added. **Note:** If a data collection associated with the data asset is added to an asset group for which you aren't assigned the required permissions. The Associated Data Collections field won't display the data collection. For more information about asset groups, see [Implement access controls on metadata](https://onlinehelp.informatica.com/IICS/prod/DMP/en/cc-setup-data-marketplace/Use_Metadata_Command_Center_to_enrich_and_manage_objects.html#ww3_6_11_7_1 "Use Metadata Command Center to enrich and manage objects"). |
+| Reference ID | Enter a reference identifier for the data asset. If you don't specify a reference identifier, Data Marketplace automatically assigns a unique value to the object. If you want to specify a reference identifier, enter a unique alphabetical, numeric or alphanumeric value. You can also use special characters when you enter a reference identifier value. Ensure that the value that you enter doesn't use a prefix value that is configured in Metadata Command Center. For more information about reference IDs, see [Manage reference IDs of objects](https://onlinehelp.informatica.com/IICS/prod/DMP/en/cc-setup-data-marketplace/Use_Metadata_Command_Center_to_enrich_and_manage_objects.html#ww3_6_11_10_1 "Use Metadata Command Center to enrich and manage objects"). |
 | Name | Enter a name for the data asset. |
 | Description | Enter a description for the data asset. |
 | Data Source | Specify the source system from which the data is supplied to Data Marketplace. |
@@ -253,7 +253,7 @@ The following table describes the properties of a data element that you can conf
 
 | Property | Description |
 | --- | --- |
-| Reference ID | Enter a reference identifier for the data element. If you don't specify a reference identifier, Data Marketplace automatically assigns a unique value to the object. If you want to specify a reference identifier, enter a unique alphabetical, numeric or alphanumeric value. You can also use special characters when you enter a reference identifier value. Ensure that the value that you enter doesn't use a prefix value that is configured in Metadata Command Center. For more information about reference IDs, see [Manage reference IDs of objects](../cc-setup-data-marketplace/Use_Metadata_Command_Center_to_enrich_and_manage_objects.html#ww3_6_11_10_1 "Use Metadata Command Center to enrich and manage objects"). |
+| Reference ID | Enter a reference identifier for the data element. If you don't specify a reference identifier, Data Marketplace automatically assigns a unique value to the object. If you want to specify a reference identifier, enter a unique alphabetical, numeric or alphanumeric value. You can also use special characters when you enter a reference identifier value. Ensure that the value that you enter doesn't use a prefix value that is configured in Metadata Command Center. For more information about reference IDs, see [Manage reference IDs of objects](https://onlinehelp.informatica.com/IICS/prod/DMP/en/cc-setup-data-marketplace/Use_Metadata_Command_Center_to_enrich_and_manage_objects.html#ww3_6_11_10_1 "Use Metadata Command Center to enrich and manage objects"). |
 | Name | Enter a name for the data element. |
 | Description | Enter a description for the data element |
 | Technical Name | Enter the name of the data element as it appears in the source system where the data element is stored. |
@@ -310,7 +310,7 @@ To perform this task, verify the following prerequisites:
 3. In the action menu, click Create a Data Collection.
 4. On the Create Data Collection page, enter the details of the collection that you want to create and click Save.
 
-**Note:** On the Create Data Collection page, some fields are populated automatically with values from the data asset that you select. You can use the auto-populated icon (![Auto-populated icon.](../cc-setup-data-marketplace/images/GUID-47983AE6-2E21-457D-B516-ABEC2A4E8C0A-low.png)) to identify these fields. Review the content in these fields and make the necessary adjustments.
+**Note:** On the Create Data Collection page, some fields are populated automatically with values from the data asset that you select. You can use the auto-populated icon (![Auto-populated icon.](https://onlinehelp.informatica.com/IICS/prod/DMP/en/cc-setup-data-marketplace/images/GUID-47983AE6-2E21-457D-B516-ABEC2A4E8C0A-low.png)) to identify these fields. Review the content in these fields and make the necessary adjustments.
 
 For more information about the fields in the dialog box, see the Creating data collections topic in the Working With Data Collections help.
 
