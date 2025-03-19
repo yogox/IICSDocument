@@ -32,7 +32,7 @@ To perform this task, verify one of the following prerequisites:
    - You can link an unpublished data collection to the collection for which you are responsible. However, you cannot click the unpublished data collection to navigate to its details page if you are not its stakeholder.
    - If a data collection is added to an asset group for which you aren't assigned the required permissions, the Data Collections grid won't display the data collection. For more information about asset groups, see the Implement access controls on metadata topic in the Set Up Data Marketplace help.
 
-   ![Image depicting the link similar data collections dialog box.](../bb-working-with-data-collections/images/GUID-2740A5F9-51C1-4637-B051-95A4A2BD2AD2-low.png)
+   ![Image depicting the link similar data collections dialog box.](https://onlinehelp.informatica.com/IICS/prod/DMP/en/bb-working-with-data-collections/images/GUID-2740A5F9-51C1-4637-B051-95A4A2BD2AD2-low.png)
 
 4. Click Link.
 
