@@ -8,7 +8,7 @@ On a consumer access page, you can view details of your access to a data collect
 
 The following image shows a consumer access page:
 
-![Image depicting a consumer access page.](../bb-working-with-data-collections/images/GUID-6F224737-20EF-43FE-BB24-DADCBA1DC3E9-low.png)
+![Image depicting a consumer access page.](https://onlinehelp.informatica.com/IICS/prod/DMP/en/bb-working-with-data-collections/images/GUID-6F224737-20EF-43FE-BB24-DADCBA1DC3E9-low.png)
 
 **Prerequisites**
 
@@ -87,7 +87,7 @@ To view consumer accesses on the History page, verify the following prerequisite
 
 1. Open the History page.
 
-![This image depicts the Consumer Access tab on the History page.](../bb-working-with-data-collections/images/GUID-7EE8A684-5A2B-424D-AE02-07564CF89F7E-low.png)
+![This image depicts the Consumer Access tab on the History page.](https://onlinehelp.informatica.com/IICS/prod/DMP/en/bb-working-with-data-collections/images/GUID-7EE8A684-5A2B-424D-AE02-07564CF89F7E-low.png)
 
 2. On the History > Consumer Access tab, you can view the list of consumer accesses.
 
@@ -173,7 +173,7 @@ To perform this task, verify the following prerequisites:
 
 1. Open the Tasks page.
 
-![Image depicting the Withdraw tab on the Tasks page.](../bb-working-with-data-collections/images/GUID-286B50EE-3CB1-41D2-B642-C78F6AC11D44-low.png)
+![Image depicting the Withdraw tab on the Tasks page.](https://onlinehelp.informatica.com/IICS/prod/DMP/en/bb-working-with-data-collections/images/GUID-286B50EE-3CB1-41D2-B642-C78F6AC11D44-low.png)
 
 2. On the Tasks > Withdraw tab, you can view all the pending consumer access withdrawal requests.
 
