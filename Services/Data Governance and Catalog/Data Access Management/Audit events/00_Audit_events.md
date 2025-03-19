@@ -1,0 +1,3 @@
+Audit events are detailed explanations of events such as the creation of a data protection and data access policy updates. You can view some audit events on the History tab of any data access asset on the Data Access Management page in Data Governance and Catalog. An administrator at your organization can set the Secure Agent to write other audit events to a local directory path. These events include query events and data access control policy pushdown events.
+
+You can use audit events to track data processes and data use. For example, you can identify the users who created and modified data access assets.
