@@ -14,7 +14,7 @@ On the Summary tab, you can view the properties of a data asset.
 
 To view the properties of a native data asset, verify one of the following prerequisites:
 
-- Your user profile is assigned at least one of the predefined roles for Data Marketplace. For more information about the predefined roles for Data Marketplace, see Predefined roles (参照先のパスはaa-introduction-and-getting-started/Predefined_roles.html).
+- Your user profile is assigned at least one of the predefined roles for Data Marketplace. For more information about the predefined roles for Data Marketplace, see Predefined roles.
 - Your user profile is assigned a role for which the following privileges and permissions are enabled:
   ▪ Access Data Marketplace privilege is enabled in Administrator.
   ▪ Read permission is enabled in Metadata Command Center for data assets.
@@ -39,17 +39,17 @@ The following table describes the fields in the Data Asset Summary panel:
 
 **Add to Data Collection section**
 
-In the Add to Data Collection section, add the data asset to an existing data collection or use the data asset details to create a new data collection for the data asset. For more information, see Data Assets (参照先のパスはcc-setup-data-marketplace/Data_Assets.html) in the Set Up Data Marketplace help.
+In the Add to Data Collection section, add the data asset to an existing data collection or use the data asset details to create a new data collection for the data asset. For more information, see Data Assets in the Set Up Data Marketplace help.
 
 **Associated Data Collections section**
 
-In the Associated Data Collections section, you can view all the data collections that contain the data asset. For more information, see Data Collections tab (参照先パスはaa-introduction-and-getting-started/Data_collections.html#data-collections-tab).
+In the Associated Data Collections section, you can view all the data collections that contain the data asset. For more information, see Data Collections tab.
 
 **Metrics section**
 
-In the Metrics section, you can view the data quality metrics for the data asset. For more information, see Data Quality tab (参照先パスはaa-introduction-and-getting-started/Data_collections.html#data-quality-tab).
+In the Metrics section, you can view the data quality metrics for the data asset. For more information, see Data Quality tab.
 
-Typically, a Data Marketplace Administrator is responsible for creating and managing Data Marketplace data assets. For more information about creating or modifying a data asset, see Data Assets (参照先パスはcc-setup-data-marketplace/Data_Assets.html) in the Set Up Data Marketplace help.
+Typically, a Data Marketplace Administrator is responsible for creating and managing Data Marketplace data assets. For more information about creating or modifying a data asset, see Data Assets in the Set Up Data Marketplace help.
 
 ### Governed data asset
 
@@ -57,7 +57,7 @@ Typically, a Data Marketplace Administrator is responsible for creating and mana
 
 To view the properties of a Data Governance and Catalog asset, verify one of the following prerequisites:
 
-- Your user profile is assigned at least one of the predefined roles for Data Marketplace. For more information about the predefined roles for Data Marketplace, see Predefined roles (参照先パスはaa-introduction-and-getting-started/Predefined_roles.html).
+- Your user profile is assigned at least one of the predefined roles for Data Marketplace. For more information about the predefined roles for Data Marketplace, see Predefined roles.
 - Your user profile is assigned a role for which the following privileges and permissions are enabled:
   ▪ Access Data Marketplace privilege is enabled in Administrator.
   ▪ Read permission is enabled in Metadata Command Center for data assets.
@@ -93,15 +93,15 @@ For more information about Data Governance and Catalog assets, see the Working W
 
 **Add to Data Collection section**
 
-In the Add to Data Collection section, add the data asset to an existing data collection or use the data asset details to create a new data collection for the data asset. For more information, see Data Assets (参照先パスはcc-setup-data-marketplace/Data_Assets.html) in the Set Up Data Marketplace help.
+In the Add to Data Collection section, add the data asset to an existing data collection or use the data asset details to create a new data collection for the data asset. For more information, see Data Assets in the Set Up Data Marketplace help.
 
 **Associated Data Collections section**
 
-In the Associated Data Collections section, you can view all the data collections that contain the data asset. For more information, see Data Collections tab (参照先パスはaa-introduction-and-getting-started/Data_collections.html#data-collections-tab).
+In the Associated Data Collections section, you can view all the data collections that contain the data asset. For more information, see Data Collections tab.
 
 **Metrics section**
 
-In the Metrics section, you can view the data quality metrics for the data asset. For more information, see Data Quality tab (参照先パスはaa-introduction-and-getting-started/Data_collections.html#data-quality-tab).
+In the Metrics section, you can view the data quality metrics for the data asset. For more information, see Data Quality tab.
 
 ## Data Elements tab
 
@@ -111,7 +111,7 @@ On the Data Elements tab, you can view all the data elements that are part of a 
 
 To view the data elements of a data asset, verify one of the following prerequisites:
 
-- Your user profile is assigned at least one of the predefined roles for Data Marketplace. For more information about the predefined roles for Data Marketplace, see Predefined roles (参照先パスはaa-introduction-and-getting-started/Predefined_roles.html).
+- Your user profile is assigned at least one of the predefined roles for Data Marketplace. For more information about the predefined roles for Data Marketplace, see Predefined roles.
 - Your user profile is assigned a role for which the following privileges and permissions are enabled:
   ▪ Access Data Marketplace privilege is enabled in Administrator.
   ▪ Read permission is enabled in Metadata Command Center for data assets and data elements.
@@ -122,7 +122,7 @@ On the Data Elements grid, you can view the data elements that a data asset cont
 To find a specific data element, enter the name of data element in the search bar and click Search. When you search for a data element, ensure that the following conditions are fulfilled:
 
 • The search term that you enter must not exceed 1000 characters.
-• If you want to use a reserved word to search for a data element, enter the reserved word in quotes. For more information about reserved words, see Reserved words (参照先パスはaa-introduction-and-getting-started/Data_collections.html#ww3_12_18_11_7_1).
+• If you want to use a reserved word to search for a data element, enter the reserved word in quotes. For more information about reserved words, see Reserved words.
 • If your search query contains a special character, ensure that you enter your search query in quotes.
 
 The following table describes the fields in the Data Elements grid:
@@ -140,7 +140,7 @@ The following table describes the fields in the Data Elements grid:
 | Status | Status of the data element. A data element can have one of the following statuses: - Enabled. The data element is available. - Disabled. The data element is not available. |
 | Data Quality | Data quality score of the data element as calculated in a data quality system. |
 
-For more information about how to add a data asset and add data element to a data asset, see Data Assets (参照先パスはcc-setup-data-marketplace/Data_Assets.html) in the Set Up Data Marketplace help.
+For more information about how to add a data asset and add data element to a data asset, see Data Assets in the Set Up Data Marketplace help.
 
 ## Data Quality tab
 
@@ -150,7 +150,7 @@ In the Data Quality tab of a data asset page, you can view the data quality scor
 
 To view the data quality details of a data asset, verify one of the following prerequisites:
 
-- Your user profile is assigned at least one of the predefined roles for Data Marketplace. For more information about the predefined roles for Data Marketplace, see Predefined roles (参照先パスはaa-introduction-and-getting-started/Predefined_roles.html).
+- Your user profile is assigned at least one of the predefined roles for Data Marketplace. For more information about the predefined roles for Data Marketplace, see Predefined roles.
 - Your user profile is assigned a role for which the following privileges and permissions are enabled:
   ▪ Access Data Marketplace privilege is enabled in Administrator.
   ▪ Read permission is enabled in Metadata Command Center for data assets.
@@ -170,7 +170,7 @@ On the Data Collections tab, you can view all the data collections that contain 
 
 To view the data collections associated with a data asset, verify one of the following prerequisites:
 
-- Your user profile is assigned at least one of the predefined roles for Data Marketplace. For more information about the predefined roles for Data Marketplace, see Predefined roles (参照先パスはaa-introduction-and-getting-started/Predefined_roles.html).
+- Your user profile is assigned at least one of the predefined roles for Data Marketplace. For more information about the predefined roles for Data Marketplace, see Predefined roles.
 - Your user profile is assigned a role for which the following privileges and permissions are enabled:
   ▪ Access Data Marketplace privilege is enabled in Administrator.
   ▪ Read permission is enabled in Metadata Command Center for data assets and data collections.
