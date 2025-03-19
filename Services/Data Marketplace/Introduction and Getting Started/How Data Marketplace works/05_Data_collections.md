@@ -8,7 +8,7 @@ To view the details of a data collection, click the data collection. When you op
 
 The following image shows an example of a data collection page:
 
-![Image depicting the Summary tab on a data collection page.](../aa-introduction-and-getting-started/images/GUID-71A6F2DB-D319-4DEC-B4F1-216B4575E51D-low.png)
+![Image depicting the Summary tab on a data collection page.](https://onlinehelp.informatica.com/IICS/prod/DMP/en/aa-introduction-and-getting-started/images/GUID-71A6F2DB-D319-4DEC-B4F1-216B4575E51D-low.png)
 
 ## Summary tab
 
@@ -18,7 +18,7 @@ On the Summary tab, you can view the properties of a data collection.
 
 To view the properties of a data collection, verify one of the following prerequisites:
 
-- Your user profile is assigned at least one of the predefined roles for Data Marketplace. For more information about the predefined roles for Data Marketplace, see [Predefined roles](../aa-introduction-and-getting-started/Predefined_roles.html).
+- Your user profile is assigned at least one of the predefined roles for Data Marketplace. For more information about the predefined roles for Data Marketplace, see [Predefined roles](https://onlinehelp.informatica.com/IICS/prod/DMP/en/aa-introduction-and-getting-started/Predefined_roles.html).
 - Your user profile is assigned a role for which the following privileges and permissions are enabled:
   ▪ Access Data Marketplace privilege is enabled in Administrator.
   ▪ Read permission is enabled in Metadata Command Center for categories, data collections and usage contexts.
@@ -65,7 +65,7 @@ Where it's used? This pie chart represents the delivery templates used for the d
 
 The following image depicts the metrics section:
 
-![Image depicting the pie charts on the Metrics section.](../aa-introduction-and-getting-started/images/GUID-B5E7A373-D8DF-45E7-9F37-256E765128F4-low.png)
+![Image depicting the pie charts on the Metrics section.](https://onlinehelp.informatica.com/IICS/prod/DMP/en/aa-introduction-and-getting-started/images/GUID-B5E7A373-D8DF-45E7-9F37-256E765128F4-low.png)
 
 The metrics section also displays three bar charts to indicate the timeline of the data collection orders, number of consumer accesses, and the average delivery time.
 
@@ -79,7 +79,7 @@ View the data quality score for each data asset available on the Data Assets tab
 
 The following image depicts an example of the Data Quality Per Asset section on a data collection page:
 
-![Image depicting the data quality scores of all the data assets associated to the data collection.](../aa-introduction-and-getting-started/images/GUID-D8AFAD05-19EF-43CD-8C04-316FC9EFEF15-low.png)
+![Image depicting the data quality scores of all the data assets associated to the data collection.](https://onlinehelp.informatica.com/IICS/prod/DMP/en/aa-introduction-and-getting-started/images/GUID-D8AFAD05-19EF-43CD-8C04-316FC9EFEF15-low.png)
 
 You can use these data quality metrics to determine the reliability of your data. Data Marketplace uses distinct colors to visualize the metrics. These colors allow you to distinguish helpful data from unhelpful data according to the target and threshold values defined in Data Marketplace or in Data Governance and Catalog.
 
@@ -110,7 +110,7 @@ The Data Assets tab contains the following grids:
 
 To view the data assets of a data collection, verify one of the following prerequisites:
 
-- Your user profile is assigned at least one of the predefined roles for Data Marketplace. For more information about the predefined roles for Data Marketplace, see [Predefined roles](../aa-introduction-and-getting-started/Predefined_roles.html).
+- Your user profile is assigned at least one of the predefined roles for Data Marketplace. For more information about the predefined roles for Data Marketplace, see [Predefined roles](https://onlinehelp.informatica.com/IICS/prod/DMP/en/aa-introduction-and-getting-started/Predefined_roles.html).
 - Your user profile is assigned a role for which the following privileges and permissions are enabled:
   ▪ Access Data Marketplace privilege is enabled in Administrator.
   ▪ Read permission is enabled in Metadata Command Center for data assets and data collections.
@@ -145,7 +145,7 @@ The following table describes the fields in the Data Assets grid:
 
 To view the data elements of a data asset, verify one of the following prerequisites:
 
-- Your user profile is assigned at least one of the predefined roles for Data Marketplace. For more information about the predefined roles for Data Marketplace, see [Predefined roles](../aa-introduction-and-getting-started/Predefined_roles.html).
+- Your user profile is assigned at least one of the predefined roles for Data Marketplace. For more information about the predefined roles for Data Marketplace, see [Predefined roles](https://onlinehelp.informatica.com/IICS/prod/DMP/en/aa-introduction-and-getting-started/Predefined_roles.html).
 - Your user profile is assigned a role for which the following privileges and permissions are enabled:
   ▪ Access Data Marketplace privilege is enabled in Administrator.
   ▪ Read permission is enabled in Metadata Command Center for data assets, data collections and data elements.
@@ -243,7 +243,7 @@ On the Delivery tab, you can select a delivery target for the data collection.
 
 To view the delivery options of a data collection, verify one of the following prerequisites:
 
-- Your user profile is assigned at least one of the predefined roles for Data Marketplace. For more information about the predefined roles for Data Marketplace, see [Predefined roles](../aa-introduction-and-getting-started/Predefined_roles.html).
+- Your user profile is assigned at least one of the predefined roles for Data Marketplace. For more information about the predefined roles for Data Marketplace, see [Predefined roles](https://onlinehelp.informatica.com/IICS/prod/DMP/en/aa-introduction-and-getting-started/Predefined_roles.html).
 - Your user profile is assigned a role for which the following privileges and permissions are enabled:
   ▪ Access Data Marketplace privilege is enabled in Administrator.
   ▪ Read permission is enabled in Metadata Command Center for data collections, delivery formats, delivery methods, delivery targets and delivery templates.
@@ -273,7 +273,7 @@ On the Terms of Use tab, you can view the terms of use that are guidelines for a
 
 To view the terms of use associated with the data collection, verify one of the following prerequisites:
 
-- Your user profile is assigned at least one of the predefined roles for Data Marketplace. For more information about the predefined roles for Data Marketplace, see [Predefined roles](../aa-introduction-and-getting-started/Predefined_roles.html).
+- Your user profile is assigned at least one of the predefined roles for Data Marketplace. For more information about the predefined roles for Data Marketplace, see [Predefined roles](https://onlinehelp.informatica.com/IICS/prod/DMP/en/aa-introduction-and-getting-started/Predefined_roles.html).
 - Your user profile is assigned a role for which the following privileges and permissions are enabled:
   ▪ Access Data Marketplace privilege is enabled in Administrator.
   ▪ Read permission is enabled in Metadata Command Center for data collections and terms of use.
@@ -296,7 +296,7 @@ On the Stakeholders tab, you can view the stakeholders of the data collection. S
 
 To view the stakeholders of a data collection, verify one of the following prerequisites:
 
-- Your user profile is assigned at least one of the predefined roles for Data Marketplace. For more information about the predefined roles for Data Marketplace, see [Predefined roles](../aa-introduction-and-getting-started/Predefined_roles.html).
+- Your user profile is assigned at least one of the predefined roles for Data Marketplace. For more information about the predefined roles for Data Marketplace, see [Predefined roles](https://onlinehelp.informatica.com/IICS/prod/DMP/en/aa-introduction-and-getting-started/Predefined_roles.html).
 - Your user profile is assigned a role for which the following privileges and permissions are enabled:
   ▪ Access Data Marketplace privilege is enabled in Administrator.
   ▪ Read permission is enabled in Metadata Command Center for data collections.
@@ -319,7 +319,7 @@ On the Consumers tab, you can view the records that indicate a Data User's acces
 
 To view the consumer access for the data collection, verify one of the following prerequisites:
 
-- Your user profile is assigned at least one of the predefined roles for Data Marketplace. For more information about the predefined roles for Data Marketplace, see [Predefined roles](../aa-introduction-and-getting-started/Predefined_roles.html).
+- Your user profile is assigned at least one of the predefined roles for Data Marketplace. For more information about the predefined roles for Data Marketplace, see [Predefined roles](https://onlinehelp.informatica.com/IICS/prod/DMP/en/aa-introduction-and-getting-started/Predefined_roles.html).
 - Your user profile is assigned a role for which the following privileges and permissions are enabled:
   ▪ Access Data Marketplace privilege is enabled in Administrator.
   ▪ Read permission is enabled in Metadata Command Center for consumer accesses and data collections.
