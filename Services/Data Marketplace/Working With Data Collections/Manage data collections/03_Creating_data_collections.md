@@ -61,7 +61,7 @@ To perform this task, verify one of the following prerequisites:
 
 1. Open a data collection. 
 
-   For more information about how you can find a data collection, see [Browsing for data collections](../bb-working-with-data-collections/Browsing_for_data_collections.html).
+   For more information about how you can find a data collection, see [Browsing for data collections](https://onlinehelp.informatica.com/IICS/prod/DMP/en/bb-working-with-data-collections/Browsing_for_data_collections.html).
 
 2. On Data Assets tab of the data collection page, click Add to add new data assets to the collection.
 
@@ -75,7 +75,7 @@ To perform this task, verify one of the following prerequisites:
    - When the Add Assets grid is available, you can view the data elements only for the assets that you want to add to the data collection. To view the data elements that comprise a data asset that is already added to the data collection, close the Add Assets grid.
    - If you want to utilize a delivery target that is based on a Managed Access enabled template, ensure that you select only the assets that belong to the same source system. For more information about how you can assign a delivery target to a data collection, see [Specifying delivery targets for data collection](#specifying-delivery-targets-for-data-collection).
 
-   ![Image depicting the Data Assets tab on a data collection page. The Add Assets section is encircled.](../bb-working-with-data-collections/images/GUID-60C5AAE9-85C0-441C-8E21-A392AF05503B-low.png)
+   ![Image depicting the Data Assets tab on a data collection page. The Add Assets section is encircled.](https://onlinehelp.informatica.com/IICS/prod/DMP/en/bb-working-with-data-collections/images/GUID-60C5AAE9-85C0-441C-8E21-A392AF05503B-low.png)
 
 4. Click Add.
 
@@ -110,7 +110,7 @@ To perform this task, verify one of the following prerequisites:
 
 1. Open a data collection. 
 
-   For more information about how you can find a data collection, see [Browsing for data collections](../bb-working-with-data-collections/Browsing_for_data_collections.html).
+   For more information about how you can find a data collection, see [Browsing for data collections](https://onlinehelp.informatica.com/IICS/prod/DMP/en/bb-working-with-data-collections/Browsing_for_data_collections.html).
 
 2. On the Delivery tab of the data collection page, click New.
 
@@ -134,7 +134,7 @@ To perform this task, verify one of the following prerequisites:
 
 4. Click Save.
 
-You can also modify the delivery targets that you have created. For more information about how you can modify a delivery target, see [Modifying delivery targets](../bb-working-with-data-collections/Modifying_data_collections.html#ww3_9_15_10_1).
+You can also modify the delivery targets that you have created. For more information about how you can modify a delivery target, see [Modifying delivery targets](https://onlinehelp.informatica.com/IICS/prod/DMP/en/bb-working-with-data-collections/Modifying_data_collections.html#ww3_9_15_10_1).
 
 ### Automated deliveries
 
@@ -142,7 +142,7 @@ If a data collection that you own requires no approval to be accessed, you can c
 
 The following image shows the overall process of how a data collection whose delivery is automated is delivered to a Data User that ordered it:
 
-![Image depicting the overall process of how a data collection whose delivery is automated is delivered to a Data User that ordered it.](../bb-working-with-data-collections/images/GUID-8C82E6F2-B3B7-4C26-AEBD-F66F1FEFD75A-low.png)
+![Image depicting the overall process of how a data collection whose delivery is automated is delivered to a Data User that ordered it.](https://onlinehelp.informatica.com/IICS/prod/DMP/en/bb-working-with-data-collections/images/GUID-8C82E6F2-B3B7-4C26-AEBD-F66F1FEFD75A-low.png)
 
 **Note:** The process flow is illustrated using the predefined roles for Data Marketplace.
 
@@ -180,13 +180,13 @@ To perform this task, verify one of the following prerequisites:
 
 1. Open a data collection. 
 
-   For more information about how you can find a data collection, see [Browsing for data collections](../bb-working-with-data-collections/Browsing_for_data_collections.html).
+   For more information about how you can find a data collection, see [Browsing for data collections](https://onlinehelp.informatica.com/IICS/prod/DMP/en/bb-working-with-data-collections/Browsing_for_data_collections.html).
 
 2. On the Terms of Use tab of the data collection, click Add.
 
 3. In the Add Terms of Use dialog box, select the applicable terms of use.
 
-   ![Image depicting the Add Terms of Use dialog box.](../bb-working-with-data-collections/images/GUID-D4033906-7894-4FE7-9CD2-576191752D2C-low.png)
+   ![Image depicting the Add Terms of Use dialog box.](https://onlinehelp.informatica.com/IICS/prod/DMP/en/bb-working-with-data-collections/images/GUID-D4033906-7894-4FE7-9CD2-576191752D2C-low.png)
 
 4. Click Add to save your changes and exit the dialog box.
 
