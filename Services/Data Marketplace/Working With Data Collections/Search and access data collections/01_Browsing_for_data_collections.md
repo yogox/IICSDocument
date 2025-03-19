@@ -2,15 +2,15 @@
 
 You can search for data collections in Data Marketplace that allow you to make effective business decisions. After you find a suitable data collection, you can place an order to gain access to it.
 
-Typically, you search for data collections on the Search page. To search for a data collection, enter a search query for the data that you want to find in the search box, and click Search. For more information, see [Data Collections tab](#data-collections-tab).
+Typically, you search for data collections on the Search page. To search for a data collection, enter a search query for the data that you want to find in the search box, and click Search. For more information, see Data Collections tab.
 
 When you search for data collections, consider the following:
 
 • The search term that you enter must not exceed 1000 characters.
-• If you want to use a reserved word to search for a data collection, enter the reserved word in quotes. For more information about reserved words, see [Reserved words](#reserved-words).
+• If you want to use a reserved word to search for a data collection, enter the reserved word in quotes. For more information about reserved words, see Reserved words.
 • If your search query contains a special character, ensure that you enter your search query in quotes.
 
-If you want to view the data assets or data elements that relate to one or more data collections, open the Other Items tab. For more information about the Other Items tab, see [Other Items tab](#other-items-tab). Additionally, you can use the data assets or data elements on the Other Items tab to find relevant data collections. For more information, see [Related Data Collections tab](#related-data-collections-tab).
+If you want to view the data assets or data elements that relate to one or more data collections, open the Other Items tab. For more information about the Other Items tab, see Other Items tab. Additionally, you can use the data assets or data elements on the Other Items tab to find relevant data collections. For more information, see Related Data Collections tab.
 
 To clear the search box, click Clear Search.
 
@@ -36,7 +36,7 @@ The Data Collections grid displays all the data collections whose names or descr
 • If a data collection is present in an effectively inactive category, the Data Collections grid won't display the data collection. Moreover, when you use the Category filter, the filter displays only effectively active categories.
 • If a data collection is added to an asset group for which you aren't assigned the required permissions. The Data Collections grid won't display the data collection. For more information about asset groups, see the Implement access controls on metadata topic in the Set Up Data Marketplace help.
 
-It's possible that more than one data collection meets your requirements. In such a scenario, you can compare these data collections for differences in content, usage, and available locations for consumption. To compare the data collections that you find, click the Compare icon to add a data collection to the Compare page. For more information about how you can compare data collections, see [Comparing data collections](../bb-working-with-data-collections/Comparing_data_collections.html).
+It's possible that more than one data collection meets your requirements. In such a scenario, you can compare these data collections for differences in content, usage, and available locations for consumption. To compare the data collections that you find, click the Compare icon to add a data collection to the Compare page. For more information about how you can compare data collections, see Comparing data collections.
 
 ### Filter search results
 
@@ -83,7 +83,7 @@ The Other Items grid displays all the data elements or data assets whose names o
 
 **Note:** If a data collection of a data asset is added to an asset group for which you aren't assigned the required permissions. The Other Items grid won't display the data asset and the data elements within it. For more information about asset groups, see the Implement access controls on metadata topic in the Set Up Data Marketplace help.
 
-If a data asset or data element is associated with less than 3 data collections, you can use the Compare All button to compare the data collections for differences in content, usage, and available locations for consumption. For more information about how you can compare data collections, see [Comparing data collections](../bb-working-with-data-collections/Comparing_data_collections.html).
+If a data asset or data element is associated with less than 3 data collections, you can use the Compare All button to compare the data collections for differences in content, usage, and available locations for consumption. For more information about how you can compare data collections, see Comparing data collections.
 
 To review all the data collections that contain the listed data assets or data elements, click the Show related data collections button. This button is clickable only when you have a maximum of 25 data assets or data elements available on this tab. To reduce the number of data assets or data elements that are displayed on this tab, use the filters in the Filters panel.
 
@@ -128,7 +128,7 @@ If none of the data collections meet your requirements, you can update the item 
 
 **Note:** If a data collection is added to an asset group for which you aren't assigned the required permissions. The Related Data Collections grid won't display the data collection. For more information about asset groups, see the Implement access controls on metadata topic in the Set Up Data Marketplace help.
 
-It's possible that more than one data collection meets your requirements. In such a scenario, you can compare these data collections for differences in content, usage, and available locations for consumption. To compare the data collections that you find, click the Compare icon to add a data collection to the Compare page. For more information about how you can compare data collections, see [Comparing data collections](../bb-working-with-data-collections/Comparing_data_collections.html).
+It's possible that more than one data collection meets your requirements. In such a scenario, you can compare these data collections for differences in content, usage, and available locations for consumption. To compare the data collections that you find, click the Compare icon to add a data collection to the Compare page. For more information about how you can compare data collections, see Comparing data collections.
 
 ### Filter search results
 
