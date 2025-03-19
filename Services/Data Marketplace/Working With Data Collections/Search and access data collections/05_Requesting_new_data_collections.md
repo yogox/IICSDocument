@@ -15,7 +15,7 @@ To request a new data collection, verify one of the following prerequisites:
 
 The following image shows the overall process of requesting the creation of a new data collection in Data Marketplace:
 
-![Image depicting the overall process of requesting a new data collection in Data Marketplace.](../bb-working-with-data-collections/images/GUID-8350DDDD-26CB-4FAC-95E6-FAE66D3FF845-low.png)
+![Image depicting the overall process of requesting a new data collection in Data Marketplace.](https://onlinehelp.informatica.com/IICS/prod/DMP/en/bb-working-with-data-collections/images/GUID-8350DDDD-26CB-4FAC-95E6-FAE66D3FF845-low.png)
 
 **Note:** The process flow is illustrated using the predefined roles for Data Marketplace.
 
