@@ -1,185 +1,219 @@
-# Data assets
+# Consumer accesses
 
-A representation of data in an organization. Data assets may contain relevant data elements and are contained in one or more data collections.
+A consumer access is a record that indicates a Data User's access to a data collection, along with other details such as the date of delivery, details of the stakeholder that delivered the data, and the delivery option that was used for the delivery.
 
-Data assets are the building blocks with which stakeholders create their data collections. Besides using Data Governance and Catalog assets, stakeholders can also use data assets native to Data Marketplace to enrich their data collections.
+## View consumer access details
 
-## Summary tab
+On a consumer access page, you can view details of your access to a data collection and the details of the order used to deliver the collection to you.
 
-On the Summary tab, you can view the properties of a data asset.
+The following image shows a consumer access page:
 
-### Native data asset
+![Image depicting a consumer access page.](../bb-working-with-data-collections/images/GUID-6F224737-20EF-43FE-BB24-DADCBA1DC3E9-low.png)
 
 **Prerequisites**
 
-To view the properties of a native data asset, verify one of the following prerequisites:
+To view a consumer access, verify one of the following prerequisites:
 
-- Your user profile is assigned at least one of the predefined roles for Data Marketplace. For more information about the predefined roles for Data Marketplace, see [Predefined roles](../aa-introduction-and-getting-started/Predefined_roles.html).
-- Your user profile is assigned a role for which the following privileges and permissions are enabled:
-  ▪ Access Data Marketplace privilege is enabled in Administrator.
-  ▪ Read permission is enabled in Metadata Command Center for data assets.
+- The consumer access record is created for your access to the data collection and your user profile is assigned at least one of the predefined roles for Data Marketplace. For more information about the predefined roles for Data Marketplace, see the Predefined roles topic in the Introduction and Getting Started help.
+- Your user profile is assigned one of the following user roles:
+  - Technical Administrator
+  - Data Marketplace Administrator
+- You are either an inherited or specifically assigned stakeholder with one of the following stakeholder roles on the data collection that is associated with the consumer access:
+  - Data Owner
+  - Technical Owner
+  - Category Owner
+- You are assigned as a stakeholder on the data collection that is associated with the consumer access and your user profile is assigned a role for which the following privileges and permissions are enabled:
+  - Access Data Marketplace privilege is enabled in Administrator.
+  - Read permission is enabled in Metadata Command Center for consumer accesses, data collections, delivery formats, delivery methods, delivery targets, orders, terms of use and usage contexts.
 
-**Data Asset Summary panel**
+**Delivery section**
 
-The following table describes the fields in the Data Asset Summary panel:
+The following table describes the fields that you can view in the Delivery section:
 
 | Field | Description |
 |-------|-------------|
-| Reference ID | Reference identifier of the data asset. |
-| Name | Name of the data asset. |
-| Description | Description of the data asset as defined. |
-| Data Source | Source system from which the data is supplied to Data Marketplace. |
-| Descriptive Source | Source application from which the description of the data asset is taken. |
-| Source Path | Location of the data asset in the source system where the data asset is stored. |
-| Source Path Description | Description of the location in the source system where the data asset is stored. |
-| Technical Data Asset | Name of the data asset as it appears in the source system where the data asset is stored. |
-| Type | Type of the data asset. In this field, you can also view the following tags that are appended by Data Marketplace to the data asset: - Native Data Asset. The data asset was created in Data Marketplace. - Governed Data Asset. The data asset was imported from Data Governance and Catalog into Data Marketplace. |
-| Asset Link | Link to the associated asset in Data Governance and Catalog. |
-| Status | Status of the data asset. A data asset can have one of the following statuses: - Enabled. The data asset is available. - Disabled. The data asset is not available. |
+| Target | Name of the delivery target used to deliver the data collection. |
+| Description | Description of the delivery target used to deliver the data collection. |
+| Type | The delivery type. This field can have the following values: <br>- Manual. Stakeholders of the data collection must approve and fulfill the order manually. <br>- Automatic. The order approval and fulfillment is automated. |
+| Managed Access | A delivery setting that determines whether or not a unique location was created at the time of order fulfillment. <br>- If Managed Access is enabled, the data is made available in a location that is unique to this consumer access. <br>- If Managed Access is disabled, the same data is made available in a data location that is common to all Data Users. |
+| Format | Format in which the data was delivered. |
+| Method | Medium that was used to deliver the data to you. |
+| System | Name of the system where the data was delivered. |
+| Location | Location where the data is delivered. <br>If Managed Access is enabled for the target that is used for the delivery, the data is delivered to a location that is unique to the consumer access that you are viewing. For more information about how you can access the data that was delivered using Data Access Management, see the Data Access Management help.<br>**Note:** By default, the location details are visible if the system can verify one of the following prerequisites: <br>- You are the user that was granted access to the data collection that is associated with the consumer access. <br>- You are a stakeholder of the data collection for which the consumer access was created. <br>- Your user profile is assigned the Data Marketplace Administrator role or has the Configure and Manage Data Marketplace privilege enabled for it in Administrator. |
 
-**Add to Data Collection section**
+**Timeline section**
 
-In the Add to Data Collection section, add the data asset to an existing data collection or use the data asset details to create a new data collection for the data asset. For more information, see the Data Assets topic in the Set Up Data Marketplace help.
+In the Timeline section, you can view a summary of the actions and comments that users have made on the consumer access, along with the timestamp of each action or comment.
 
-**Associated Data Collections section**
+**Data collection section**
 
-In the Associated Data Collections section, you can view all the data collections that contain the data asset. For more information, see [Data Collections tab](#data-collections-tab).
+In the data collection section, you can view the details of the delivered data collection. To view more details of the data collection that was delivered, hover your cursor over the data collection details section.
 
-**Metrics section**
+**Orders section**
 
-In the Metrics section, you can view the data quality metrics for the data asset. For more information, see [Data Quality tab](#data-quality-tab).
-
-Typically, a Data Marketplace Administrator is responsible for creating and managing Data Marketplace data assets. For more information about creating or modifying a data asset, see the Data Assets topic in the Set Up Data Marketplace help.
-
-### Governed data asset
-
-**Prerequisites**
-
-To view the properties of a Data Governance and Catalog asset, verify one of the following prerequisites:
-
-- Your user profile is assigned at least one of the predefined roles for Data Marketplace. For more information about the predefined roles for Data Marketplace, see [Predefined roles](../aa-introduction-and-getting-started/Predefined_roles.html).
-- Your user profile is assigned a role for which the following privileges and permissions are enabled:
-  ▪ Access Data Marketplace privilege is enabled in Administrator.
-  ▪ Read permission is enabled in Metadata Command Center for data assets.
-  ▪ Read permission is enabled in Metadata Command Center for Data Governance and Catalog business assets and technical assets.
-
-If you have assets in Data Governance and Catalog that are well governed and which can be used for business decision making, you can quickly load them into Data Marketplace.
-
-If you want to modify an asset that was imported from Data Governance and Catalog, open the asset in Data Governance and Catalog. For more information about how you can modify a Data Governance and Catalog asset, see the Data Governance and Catalog help.
-
-**Data Asset Summary panel**
-
-The following table describes the fields in the Data Asset Summary panel:
+The following table describes the fields that you can view for the order that was used to deliver the data collection:
 
 | Field | Description |
 |-------|-------------|
-| Reference ID | Reference identifier of the data asset. |
-| Name | Name of the data asset as defined in Data Governance and Catalog. |
-| Description | Description of the data asset as defined in Data Governance and Catalog. |
-| Data Source | Source system from which the data is supplied to Data Governance and Catalog. |
-| Descriptive Source | Source application from which the description of the data asset is taken. |
-| Source Path | Location of the data asset in the source system where the data asset is stored. |
-| Source Path Description | Description of the location in the source system where the data asset is stored. |
-| Technical Data Asset | Name of the data asset as it appears in the source system where the data asset is stored. |
-| Type | Type of the data asset. In this field, you can also view the following tags that are appended by Data Marketplace to the data asset: - Native Data Asset. The data asset was created in Data Marketplace. - Governed Data Asset. The data asset was imported from Data Governance and Catalog into Data Marketplace. |
-| Asset Link | Link to the associated asset in Data Governance and Catalog. |
-| Status | Status of the data asset. A data asset can have one of the following statuses: - Enabled. The data asset is available. - Disabled. The data asset is not available. |
+| Usage Context | The context within which the data is used as specified by the Data User at the time of order. |
+| Business Justification | A brief description about how the Data User plans to use the data. |
+| Approved By | Name of the stakeholder that approved the order. |
+| Fulfilled By | Name of the stakeholder that fulfilled the order. |
 
-In the Additional Information section of the Data Asset Summary panel, you can view additional details about an asset that are specified in Data Governance and Catalog. The fields that appear in the Additional Information section are configured for the asset in Metadata Command Center.
+**Terms of Use section**
 
-When an asset is imported from Data Governance and Catalog into Data Marketplace, the system also retrieves its rating. A rating in Data Governance and Catalog represents a user's assessment of an asset. Data Governance and Catalog users rate assets between one to five stars. The value that you see is the average of the ratings provided by all the Data Governance and Catalog users. You can refer to the rating of a Data Governance and Catalog asset to gauge its reliability.
+In the Terms of Use section, you can view the terms of use that apply to the data collection.
 
-For more information about Data Governance and Catalog assets, see the Working With Assets help in Data Governance and Catalog.
+**Stakeholders section**
 
-**Add to Data Collection section**
+In the Stakeholders section, you can view the names of the stakeholders that responsible for the ordered data collection.
 
-In the Add to Data Collection section, add the data asset to an existing data collection or use the data asset details to create a new data collection for the data asset. For more information, see the Data Assets topic in the Set Up Data Marketplace help.
+## View consumer accesses
 
-**Associated Data Collections section**
+On the History page, you can view all the consumer accesses in Data Marketplace.
 
-In the Associated Data Collections section, you can view all the data collections that contain the data asset. For more information, see [Data Collections tab](#data-collections-tab).
+To view consumer accesses on the History page, verify the following prerequisites:
 
-**Metrics section**
+- Your user profile is assigned one of the following roles:
+  - Data Owner
+  - Technical Owner
+  - Category Owner
+  - Technical Administrator
+  - Data Marketplace Administrator
+- You are assigned as a stakeholder on a data collection and your user profile is assigned a role for which the following privileges and permissions are enabled:
+  - Access Data Marketplace privilege is enabled in Administrator.
+  - Approve or Reject Orders, Fulfill Or Reject Orders, Withdraw Consumer Accesses or Configure Data Marketplace privilege is enabled in Administrator.
+  - Read permission is enabled in Metadata Command Center for categories, consumer accesses, data collections, delivery targets, delivery templates and usage contexts.
 
-In the Metrics section, you can view the data quality metrics for the data asset. For more information, see [Data Quality tab](#data-quality-tab).
+1. Open the History page.
 
-## Data Elements tab
+![This image depicts the Consumer Access tab on the History page.](../bb-working-with-data-collections/images/GUID-7EE8A684-5A2B-424D-AE02-07564CF89F7E-low.png)
 
-On the Data Elements tab, you can view all the data elements that are part of a data asset.
+2. On the History > Consumer Access tab, you can view the list of consumer accesses.
 
-**Prerequisites**
+The following table describes the fields that you can view in the Consumer Access Details grid:
 
-To view the data elements of a data asset, verify one of the following prerequisites:
+| Column | Description |
+|--------|-------------|
+| Access | Reference identifier for the consumer access. |
+| Consumer | Name of the Data User that ordered the data collection. |
+| Data Collection | Name of the ordered data collection. |
+| Delivery Target | Name of the delivery target used to deliver the data collection. |
+| Delivery Template | Name of the delivery template that was used to create the delivery target. |
+| Business Justification | A brief description about how the Data User plans to use the data. |
+| Category | Name of the category of the data collection. |
+| Access Granted | Date when the Data User received access to the data collection. |
+| Usage Context | The reason for the requirement of access to the data provided by the Data User at the time of order. |
+| Status | Status of the consumer access. A consumer access can have one of the following statuses: <br>- **Available**. The Data User has access to the data collection. <br>- **Pending Withdraw**. A request is submitted to withdraw the Data User's access to the data collection. <br>- **Withdrawn**. The Data User's access to the data collection is withdrawn. |
+| Assigned To | The delegate of the fulfilled order. This field can have one of the following values: <br>- Me. The fulfilled order is assigned to you. <br>- My Group. The fulfilled order is assigned to your group. <br>- All. The fulfilled order is assigned to a user or group whose information is accessible to you. |
 
-- Your user profile is assigned at least one of the predefined roles for Data Marketplace. For more information about the predefined roles for Data Marketplace, see [Predefined roles](../aa-introduction-and-getting-started/Predefined_roles.html).
-- Your user profile is assigned a role for which the following privileges and permissions are enabled:
-  ▪ Access Data Marketplace privilege is enabled in Administrator.
-  ▪ Read permission is enabled in Metadata Command Center for data assets and data elements.
-  ▪ Read permission is enabled in Metadata Command Center for Data Governance and Catalog business assets, data classifications and technical assets, including the Profiling attribute group for technical assets.
+To filter the consumer accesses that are displayed in the Consumer Access Details grid, click Filter and select the filter that you want to use. After you configure the filter, click Filter again to curate the grid based on how you configured the filter.
 
-On the Data Elements grid, you can view the data elements that a data asset contains. When an asset is imported from Data Governance and Catalog, Data Marketplace imports the data elements that constitute the asset. This also includes the manual data elements created in Data Governance and Catalog. For more information about Data Governance and Catalog assets, see the Asset Details help in Data Governance and Catalog.
+For example, if you want to view only the consumer accesses that are available, click Filter and select the Status filter. In the Status filter, select the Available status and click Filter again to apply it. After you apply the filter, the Consumer Access Details grid displays only the consumer accesses that are available.
 
-To find a specific data element, enter the name of data element in the search bar and click Search. When you search for a data element, ensure that the following conditions are fulfilled:
+3. To view the details of a consumer access, click the access ID in the Access column.
 
-• The search term that you enter must not exceed 1000 characters.
-• If you want to use a reserved word to search for a data element, enter the reserved word in quotes. For more information about reserved words, see [Reserved words](../aa-introduction-and-getting-started/Data_collections.html#ww3_12_18_11_7_1).
-• If your search query contains a special character, ensure that you enter your search query in quotes.
+4. To view the details of a data collection, click the data collection name in the Data Collection column.
 
-The following table describes the fields in the Data Elements grid:
+5. To view the details of a category, click the category name in the Category column.
+
+## Requesting withdrawal of consumer accesses
+
+As a stakeholder if you determine that a Data User no longer requires access to the data, or as a Data User if you think that you don't require access to the data, you can submit a request to revoke the consumer access from the data collection.
+
+To perform this task, verify one of the following prerequisites:
+
+- The consumer access record is created for your access to the data collection.
+- Your user profile is assigned one of the following user roles:
+  - Technical Administrator
+  - Data Marketplace Administrator
+- You are either an inherited or specifically assigned stakeholder with one of the following stakeholder roles on the data collection that is associated with the consumer access:
+  - Data Owner
+  - Technical Owner
+  - Category Owner
+- You are assigned as a stakeholder on the data collection that is associated with the consumer access and your user profile is assigned a role for which the following privileges and permissions are enabled:
+  - Access Data Marketplace privilege is enabled in Administrator.
+  - Approve or Reject Orders, Fulfill Or Reject Orders, Withdraw Consumer Accesses or Configure Data Marketplace privilege is enabled in Administrator.
+  - Read and Update permissions are enabled in Metadata Command Center for consumer accesses and data collections.
+  - Read permission is enabled in Metadata Command Center for categories, delivery targets, delivery templates and usage contexts.
+
+1. On your My Data page, open the consumer accesses for a data collection to which you are granted access or to a data collection for which you are assigned as a stakeholder.
+
+For more information about the My Data page, see the My Data page topic in the Introduction and Getting Started help.
+
+2. In the Timeline section of the consumer access page, click Request Withdrawal.
+
+Optionally, you can enter your comments on why the access must be revoked. To tag a user to your comment, add @ to populate the list of users. You can use either the name of the user or the user's email address to search for them.
+
+**Note:** Ensure that the user you tagged is assigned at least one of the predefined roles for Data Marketplace. For more information about the predefined roles for Data Marketplace, see the Predefined roles topic in the Introduction and Getting Started help.
+
+Alternatively, ensure that their user profile is assigned a role for which the following privileges and permissions are enabled:
+
+- Access Data Marketplace privilege is enabled in Administrator.
+- Read permission is enabled in Metadata Command Center for consumer accesses.
+
+Without these privileges and permissions, they won't be able to access your comment despite receiving the notification for it.
+
+After you submit an access withdrawal request, the status of the consumer access changes from Available to Pending Withdraw. For more information about how a consumer access is withdrawn, see Withdrawing consumer accesses (参照先は#withdrawing-consumer-accesses).
+
+## Withdrawing consumer accesses
+
+On the Tasks page, you can respond to a request to withdraw a Data User's access to a data collection.
+
+To perform this task, verify the following prerequisites:
+
+- Your user profile is assigned one of the following user roles:
+  - Technical Administrator
+  - Data Marketplace Administrator
+- You are assigned as a stakeholder with the Technical Owner stakeholder role on the data collection to which the access is to be revoked.
+- You are assigned as a stakeholder on the data collection that is associated with the consumer access and your user profile is assigned a role for which the following privileges and permissions are enabled:
+  - Access Data Marketplace and Withdraw Consumer Accesses privileges are enabled in Administrator.
+  - Read and Update permissions are enabled in Metadata Command Center for consumer accesses and data collections.
+  - Read permission is enabled in Metadata Command Center for categories and usage contexts.
+
+1. Open the Tasks page.
+
+![Image depicting the Withdraw tab on the Tasks page.](../bb-working-with-data-collections/images/GUID-286B50EE-3CB1-41D2-B642-C78F6AC11D44-low.png)
+
+2. On the Tasks > Withdraw tab, you can view all the pending consumer access withdrawal requests.
+
+The following table describes the fields that you can view in the Withdrawal Requests grid:
 
 | Field | Description |
 |-------|-------------|
-| Reference ID | Reference identifier of the data element. |
-| Name | Name of the data element. For a data element that was imported from Data Governance and Catalog, the Name field displays the technical name of the data element specified in Data Governance and Catalog. |
-| Description | Description of the data element. For a data element that was imported from Data Governance and Catalog, the Description field displays the business description of the data element. If no business description is specified for the data element in Data Governance and Catalog, the Description field displays the technical description of the data element. |
-| Business Name | The business name of a data element as defined in Data Governance and Catalog. You can hover your cursor over the business name of an element to view its business description. An element's business name and business description are defined in Data Governance and Catalog. In Data Governance and Catalog, technical assets might have user-friendly business names assigned to them. Users can assign the business names manually, or the system can automatically assign the names. For more information, see the Enrich technical assets with governance context topic in the Asset Management help for Data Governance and Catalog. |
-| Type | Type of the data element. |
-| URI | URL path of the source system where the data element is stored. |
-| Technical Name | Name of the data element as it appears in the source system where the data element is stored. |
-| Technical Type | Type of the data element as defined in the source system where the data element is stored. |
-| Status | Status of the data element. A data element can have one of the following statuses: - Enabled. The data element is available. - Disabled. The data element is not available. |
-| Data Quality | Data quality score of the data element as calculated in a data quality system. |
+| Access | Reference identifier of the consumer access. |
+| Requested By | Name of the user that requested the access withdrawal. |
+| Consumer | Name of the Data User that has access to the data. |
+| Requested | Date on which the access withdrawal request was submitted. |
+| Category | Name of the category of the data collection. |
+| Data Collection | Name of the data collection for which the consumer access is to be withdrawn. |
+| Usage Context | The context within which the data is used as specified by the Data User at the time of order. |
+| Business Justification | Reason for the access withdrawal. |
+| Assigned To | The delegate of the withdrawal request. This field can have one of the following values: <br>- Me. The withdrawal request is assigned to you. <br>- My Group. The withdrawal request is assigned to your group. <br>- All. The withdrawal request is assigned to a user or group whose information is accessible to you. |
 
-For more information about how to add a data asset and add data element to a data asset, see the Data Assets topic in the Set Up Data Marketplace help.
+To filter the consumer accesses that are displayed in the Withdrawal Requests grid, click Filter and select the filter that you want to use. After you configure the filter, click Filter again to curate the grid based on how you configured the filter.
 
-## Data Quality tab
+For example, if you want to view only the consumer accesses that are requested to be withdrawn this month, click Filter and select the Requested filter. In the Requested filter, select This month and click Filter again to apply it. After you apply the filter, the Withdrawal Requests grid displays only the consumer accesses that are requested to be withdrawn this month.
 
-In the Data Quality tab of a data asset page, you can view the data quality score for each data element that constitutes the data asset.
+3. To withdraw a Data User's access to a collection, click the Action menu, and select Withdraw Access.
 
-**Prerequisites**
+In the Withdraw Access dialog box, click Withdraw Access. Optionally, you can enter your comments to explain the reason behind the action taken. To tag a user to your comment, add @ to populate the list of users. You can use either the name of the user or the user's email address to search for them.
 
-To view the data quality details of a data asset, verify one of the following prerequisites:
+**Note:** Ensure that the user you tagged is assigned at least one of the predefined roles for Data Marketplace. For more information about the predefined roles for Data Marketplace, see the Predefined roles topic in the Introduction and Getting Started help.
 
-- Your user profile is assigned at least one of the predefined roles for Data Marketplace. For more information about the predefined roles for Data Marketplace, see [Predefined roles](../aa-introduction-and-getting-started/Predefined_roles.html).
-- Your user profile is assigned a role for which the following privileges and permissions are enabled:
-  ▪ Access Data Marketplace privilege is enabled in Administrator.
-  ▪ Read permission is enabled in Metadata Command Center for data assets.
-  ▪ Read permission is enabled in Metadata Command Center for Data Governance and Catalog business assets, data classifications and technical assets, including the Profiling attribute group for technical assets.
+Alternatively, ensure that their user profile is assigned a role for which the following privileges and permissions are enabled:
 
-You can use these data quality metrics to determine the reliability of your data. Data Marketplace uses distinct colors to visualize the metrics. These colors allow you to identify helpful data using the target and threshold values defined in Data Marketplace or in Data Governance and Catalog.
+- Access Data Marketplace privilege is enabled in Administrator.
+- Read permission is enabled in Metadata Command Center for consumer accesses.
 
-Your Data Marketplace Administrator uses REST APIs to manage the scores of each asset. For Data Governance and Catalog assets, the scores are measured in a data quality system and are imported from Data Governance and Catalog into Data Marketplace.
+Without the aforementioned privileges and permissions, they won't be able to access your comment despite receiving the notification for it.
 
-For more information about data quality rules, see the Set Up Data Marketplace help.
+4. To cancel a withdrawal request, click the Action menu, and select Cancel Withdrawal.
 
-## Data Collections tab
+In the Cancel Withdrawal dialog box, click Cancel Withdrawal. Optionally, you can enter your comments to explain the reason behind the action taken.
 
-On the Data Collections tab, you can view all the data collections that contain the data asset.
+5. Alternatively, you can respond to a withdrawal request from the consumer access page. To do this, open a consumer access. In the Timeline section of the consumer access page, click Withdraw Access.
 
-**Prerequisites**
+Optionally, you can use the Add Comment field to explain the reason behind the action taken.
 
-To view the data collections associated with a data asset, verify one of the following prerequisites:
-
-- Your user profile is assigned at least one of the predefined roles for Data Marketplace. For more information about the predefined roles for Data Marketplace, see [Predefined roles](../aa-introduction-and-getting-started/Predefined_roles.html).
-- Your user profile is assigned a role for which the following privileges and permissions are enabled:
-  ▪ Access Data Marketplace privilege is enabled in Administrator.
-  ▪ Read permission is enabled in Metadata Command Center for data assets and data collections.
-
-The following table describes the fields that you can view in the Associated Data Collections grid:
-
-| Property | Description |
-|----------|-------------|
-| Reference ID | Reference identifier of the data collection that contains the data asset. |
-| Name | Name of the data collection. |
-| Description | Description of the data collection |
-| Status | Status of the data collection. A data collection can have one of the following statuses: - Published. The data collection is discoverable to Data Users. - Unpublished. The data collection isn't discoverable to Data Users. |
+The status of the consumer access changes from Pending Withdraw to Withdrawn.
