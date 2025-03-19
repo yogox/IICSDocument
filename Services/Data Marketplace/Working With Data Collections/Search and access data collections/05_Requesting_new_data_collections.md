@@ -15,19 +15,19 @@ To request a new data collection, verify one of the following prerequisites:
 
 The following image shows the overall process of requesting the creation of a new data collection in Data Marketplace:
 
-![Image depicting the overall process of requesting a new data collection in Data Marketplace.](https://onlinehelp.informatica.com/IICS/prod/DMP/en/bb-working-with-data-collections/images/GUID-8350DDDD-26CB-4FAC-95E6-FAE66D3FF845-low.png)
+![Image depicting the overall process of requesting a new data collection in Data Marketplace.](../bb-working-with-data-collections/images/GUID-8350DDDD-26CB-4FAC-95E6-FAE66D3FF845-low.png)
 
 **Note:** The process flow is illustrated using the predefined roles for Data Marketplace.
 
 1. Open a data collection.
 
-   For more information about how you can find a data collection, see [Browsing for data collections](https://onlinehelp.informatica.com/IICS/prod/DMP/en/bb-working-with-data-collections/Browsing_for_data_collections.html).
+   For more information about how you can find a data collection, see Browsing for data collections.
 
 2. On the Summary tab of the data collection page, click the Request New Data Collection button under the Variants section.
 
    You can also use the Request New Data Collection button on the Data Collections tab of the category page to submit a data collection request.
 
-   ![Image depicting the Request New Data Collection wizard.](https://onlinehelp.informatica.com/IICS/prod/DMP/en/bb-working-with-data-collections/images/GUID-9606296B-AFCC-4496-8330-64C46FEE113F-low.png)
+   ![Image depicting the Request New Data Collection wizard.](../bb-working-with-data-collections/images/GUID-9606296B-AFCC-4496-8330-64C46FEE113F-low.png)
 
 3. On the Request Details section, you can enter the details of your request.
 
@@ -45,4 +45,4 @@ The following image shows the overall process of requesting the creation of a ne
 
 4. Click Submit Request.
 
-On the My Orders page, you can view the data collection requests that you have submitted. For more information about how you can view the data collection requests that you have submitted, see [View your orders and data collection requests](https://onlinehelp.informatica.com/IICS/prod/DMP/en/bb-working-with-data-collections/View_your_orders_and_data_collection_requests.html). A stakeholder of a category or data collection receives a notification for the new request. For more information about how a stakeholder responds to a data collection request, see [Responding to data collection requests](https://onlinehelp.informatica.com/IICS/prod/DMP/en/bb-working-with-data-collections/Responding_to_data_collection_requests.html).
+On the My Orders page, you can view the data collection requests that you have submitted. For more information about how you can view the data collection requests that you have submitted, see View your orders and data collection requests. A stakeholder of a category or data collection receives a notification for the new request. For more information about how a stakeholder responds to a data collection request, see Responding to data collection requests.
